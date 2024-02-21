@@ -1,0 +1,9 @@
+# 规则: TestFlight
+# 数目: 3
+
+# DOMAIN: 2
+# DOMAIN-KEYWORD: 1
+# TOTAL: 3
+DOMAIN,beta.apple.com
+DOMAIN,testflight.apple.com
+DOMAIN-KEYWORD,testflight

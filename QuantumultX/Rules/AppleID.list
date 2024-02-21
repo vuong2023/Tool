@@ -1,0 +1,6 @@
+# DOMAIN: 4
+# TOTAL: 4
+HOST,appleid.apple.com,PROXY
+HOST,appleid.cdn-apple.com,PROXY
+HOST,gsa.apple.com,PROXY
+HOST,idmsa.apple.com,PROXY
