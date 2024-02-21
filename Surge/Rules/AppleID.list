@@ -1,6 +1,4 @@
-# 规则: AppleID
-# 数目: 4
-
+# NAME: AppleID
 # DOMAIN: 4
 # TOTAL: 4
 DOMAIN,appleid.apple.com

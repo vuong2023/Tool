@@ -1,6 +1,3 @@
-# 规则: Apple
-# 数目: 67
-
 # This ruleset includes 99% of apple inc network connections(global). If there are any missing,please PR.
 
 DOMAIN-SUFFIX,apple.co

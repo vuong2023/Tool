@@ -1,6 +1,3 @@
-# 规则: AdGuardChinese
-# 数目: 6060
-
 DOMAIN-SUFFIX,98765.pw
 DOMAIN-SUFFIX,cdn.holmesmind.com
 DOMAIN-SUFFIX,aziekg.xyz

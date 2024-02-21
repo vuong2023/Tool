@@ -1,6 +1,4 @@
-# 规则: Cloudflare
-# 数目: 51
-
+# NAME: Cloudflare
 # DOMAIN-SUFFIX: 29
 # IP-CIDR: 15
 # IP-CIDR6: 7

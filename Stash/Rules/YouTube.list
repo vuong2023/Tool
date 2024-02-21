@@ -1,4 +1,6 @@
 payload:
+# 内容：YouTube
+# 数量：17条
 #USER-AGENT,*youtube*
 #USER-AGENT,YouTube*
 #USER-AGENT,com.google.ios.youtube*
