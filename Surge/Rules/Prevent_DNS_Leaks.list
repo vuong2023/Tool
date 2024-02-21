@@ -1,6 +1,7 @@
 # 规则: Prevent_DNS_Leaks
 # 数目: 19
 
+
 DOMAIN,ip-scan.adspower.net
 DOMAIN-SUFFIX,immersivetranslate.com
 DOMAIN-SUFFIX,browserscan.net
