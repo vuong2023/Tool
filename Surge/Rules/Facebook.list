@@ -1,7 +1,6 @@
 # 规则: Facebook
 # 数目: 21
 
-# 数量：21条
 DOMAIN-KEYWORD,facebook
 DOMAIN-KEYWORD,fbcdn
 DOMAIN-SUFFIX,facebook.com

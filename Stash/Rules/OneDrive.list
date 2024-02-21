@@ -1,5 +1,4 @@
 payload:
-# 数量：18条
 #USER-AGENT,OneDrive*
 #USER-AGENT,OneDriveiOSApp*
   - PROCESS-NAME,OneDrive

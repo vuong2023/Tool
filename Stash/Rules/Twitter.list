@@ -1,5 +1,4 @@
 payload:
-# 数量：11条
   - DOMAIN-KEYWORD,twitter
   - DOMAIN-SUFFIX,periscope.tv
   - DOMAIN-SUFFIX,pscp.tv
