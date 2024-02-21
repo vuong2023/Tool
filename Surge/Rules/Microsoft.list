@@ -1,7 +1,6 @@
 # 规则: Microsoft
 # 数目: 79
 
-# 数量：79条
 DOMAIN-KEYWORD,1drv
 DOMAIN-KEYWORD,microsoft
 DOMAIN-SUFFIX,aadrm.com

@@ -1,7 +1,6 @@
 # 规则: Instagram
 # 数目: 4
 
-# 数量：4条
 DOMAIN-KEYWORD,instagram
 DOMAIN-SUFFIX,cdninstagram.com
 DOMAIN-SUFFIX,instagr.am

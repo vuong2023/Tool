@@ -1,7 +1,6 @@
 # 规则: YouTube
 # 数目: 17
 
-# 数量：17条
 USER-AGENT,*youtube*
 USER-AGENT,YouTube*
 USER-AGENT,com.google.ios.youtube*

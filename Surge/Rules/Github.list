@@ -1,7 +1,6 @@
 # 规则: Github
 # 数目: 6
 
-# 数量：6条
 DOMAIN-KEYWORD,github
 DOMAIN-SUFFIX,github.com
 DOMAIN-SUFFIX,github.io

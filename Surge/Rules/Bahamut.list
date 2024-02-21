@@ -1,7 +1,6 @@
 # 规则: Bahamut
 # 数目: 6
 
-# 数量：6条
 USER-AGENT,Anime*
 DOMAIN,bahamut.akamaized.net
 DOMAIN,gamer-cds.cdn.hinet.net
