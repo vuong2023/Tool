@@ -1,5 +1,6 @@
 # 规则: Claude
 # 数目: 2
 
+# 数量：2条
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai

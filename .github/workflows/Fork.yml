@@ -194,26 +194,28 @@ jobs:
         cd Tool-repo/Surge/Rules
         for file in *.list; do
           if [ -f "$file" ]; then
-            # 删除旧的注释行
-            sed -i '/^# 数目:/d' "$file"
-            sed -i '/^# 规则:/d' "$file"
-            
-            # 删除空行
-            sed -i '3{/^\s*$/d}' "$file"
-            sed -i '4{/^\s*$/d}' "$file"
-            
-            # 计算文件的非空行和非注释行数
-            line_count=$(grep -cvE '^\s*(#|$)' "$file")
-            
-            # 获取文件名，去掉路径和扩展名
-            filename=$(basename "$file" .list)
-            
-            # 添加新的注释
-            sed -i "1i\# 规则: ${filename}" "$file"
-            sed -i "2i\# 数目: ${line_count}" "$file"
-            
-            # 添加一个空行到第三行
-            sed -i '3i\'$'\n' "$file"
+            if ! grep -E -q "(Lan|QQMusic|AI|Direct|Emby|Prevent_DNS_Leaks|Proxy|Pron|Telegram|TronLink|Truse)" <<< "$file"; then          
+              # 删除旧的注释行
+              sed -i '/^# 数目:/d' "$file"
+              sed -i '/^# 规则:/d' "$file"
+              
+              # 删除空行
+              sed -i '3{/^\s*$/d}' "$file"
+              sed -i '4{/^\s*$/d}' "$file"
+              
+              # 计算文件的非空行和非注释行数
+              line_count=$(grep -cvE '^\s*(#|$)' "$file")
+              
+              # 获取文件名，去掉路径和扩展名
+              filename=$(basename "$file" .list)
+              
+              # 添加新的注释
+              sed -i "1i\# 规则: ${filename}" "$file"
+              sed -i "2i\# 数目: ${line_count}" "$file"
+              
+              # 添加一个空行到第三行
+              sed -i '3i\'$'\n' "$file"
+            fi
           else
             echo "$file not found."
           fi
