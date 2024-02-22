@@ -1,9 +1,9 @@
 payload:
-# NAME: PrimeVideo
-# DOMAIN: 9
-# DOMAIN-KEYWORD: 1
-# DOMAIN-SUFFIX: 6
-# TOTAL: 16
+  # NAME: PrimeVideo
+  # DOMAIN: 9
+  # DOMAIN-KEYWORD: 1
+  # DOMAIN-SUFFIX: 6
+  # TOTAL: 16
   - DOMAIN,atv-ps.amazon.com
   - DOMAIN,avodmp4s3ww-a.akamaihd.net
   - DOMAIN,d1v5ir2lpwr8os.cloudfront.net

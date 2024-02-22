@@ -1,9 +1,9 @@
 payload:
-# NAME: Steam
-# DOMAIN: 1
-# DOMAIN-KEYWORD: 3
-# DOMAIN-SUFFIX: 36
-# TOTAL: 40
+  # NAME: Steam
+  # DOMAIN: 1
+  # DOMAIN-KEYWORD: 3
+  # DOMAIN-SUFFIX: 36
+  # TOTAL: 40
   - DOMAIN,steammobile.akamaized.net
   - DOMAIN-SUFFIX,cdn-ali.content.steamchina.com
   - DOMAIN-SUFFIX,cdn-qc.content.steamchina.com

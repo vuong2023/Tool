@@ -1,5 +1,5 @@
 payload:
-# Privacy
+  # Privacy
   - DOMAIN-SUFFIX,adjust.com
   - DOMAIN-SUFFIX,airpr.com
   - DOMAIN-SUFFIX,cr-nielsen.com
@@ -53,58 +53,58 @@ payload:
   - DOMAIN,analytics.slashdotmedia.com
   - DOMAIN,zgsdk.zhugeio.com
 
-# > 51.LA
+  # > 51.LA
   - DOMAIN,js.users.51.la
   - DOMAIN,mc.51.la
   - DOMAIN,sdk.51.la
   - DOMAIN,wc.51.la
-# > 58
+  # > 58
   - DOMAIN,track.58.com
   - DOMAIN,tracklog.58.com
-# > Antiy
+  # > Antiy
   - DOMAIN,miav-cse.avlyun.com
   - DOMAIN,miui-fxcse.avlyun.com
-# > Apple
+  # > Apple
   - DOMAIN,token.safebrowsing.apple
-# > Baidu
+  # > Baidu
   - DOMAIN,hm.baidu.com
   - DOMAIN,hmma.baidu.com
-# > Daum
+  # > Daum
   - DOMAIN,track.tiara.daum.net
   - DOMAIN,track.tiara.kakao.com
-# > Google
+  # > Google
   - DOMAIN-SUFFIX,googletagmanager.com
   - DOMAIN-SUFFIX,google-analytics.com
   - DOMAIN,safebrowsing.googleapis.com
   - DOMAIN,safebrowsing.googleapis-cn.com
-# > GozenData
-# https://www.v2ex.com/t/772523
+  # > GozenData
+  # https://www.v2ex.com/t/772523
   - DOMAIN-SUFFIX,gozendata.com
   - DOMAIN-SUFFIX,gzads.com
   - DOMAIN-SUFFIX,gz-data.com
-# > GrowingIO
+  # > GrowingIO
   - DOMAIN-SUFFIX,giocdn.com
   - DOMAIN-SUFFIX,growingio.com
-# > MI
+  # > MI
   - DOMAIN-SUFFIX,tracking.miui.com
-# DOMAIN,api.miwifi.com
+  # DOMAIN,api.miwifi.com
   - DOMAIN,data.mistat.xiaomi.com
   - DOMAIN,flash.sec.miui.com
   - DOMAIN,tracking.intl.miui.com
   - DOMAIN,a0.app.xiaomi.com
   - DOMAIN,api.installer.xiaomi.com
-# > Microsoft
+  # > Microsoft
   - DOMAIN,c.bing.com
   - DOMAIN,c.clarity.ms
   - DOMAIN,o.clarity.ms
   - DOMAIN,www.clarity.ms
-# > TalkingData
+  # > TalkingData
   - DOMAIN-SUFFIX,cpatrk.net
   - DOMAIN-SUFFIX,talkingdata.com
   - DOMAIN-SUFFIX,talkingdata.net
   - DOMAIN-SUFFIX,udrig.com
-# > Tencent
+  # > Tencent
   - DOMAIN,safebrowsing.urlsec.qq.com
-# > Tenjin
+  # > Tenjin
   - DOMAIN,track.tenjin.com
   - DOMAIN,track.tenjin.io

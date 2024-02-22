@@ -1,6 +1,6 @@
 payload:
-# 来源：https://gitlab.com/lodepuly/vpn_tool/-/blob/master/Tool/Loon/Plugin/QQMusic_remove_ads.plugin
-# 2024-01-10 13:51:07
+  # 来源：https://gitlab.com/lodepuly/vpn_tool/-/blob/master/Tool/Loon/Plugin/QQMusic_remove_ads.plugin
+  # 2024-01-10 13:51:07
 
   - DOMAIN,adstats.tencentmusic.com-DROP
   - DOMAIN,ad.tencentmusic.com-DROP

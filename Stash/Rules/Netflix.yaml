@@ -1,13 +1,13 @@
 payload:
-# NAME: Netflix
-# DOMAIN: 3
-# DOMAIN-KEYWORD: 4
-# DOMAIN-SUFFIX: 30
-# IP-CIDR: 1115
-# IP-CIDR6: 4
-# PROCESS-NAME: 1
-# USER-AGENT: 1
-# TOTAL: 1158
+  # NAME: Netflix
+  # DOMAIN: 3
+  # DOMAIN-KEYWORD: 4
+  # DOMAIN-SUFFIX: 30
+  # IP-CIDR: 1115
+  # IP-CIDR6: 4
+  # PROCESS-NAME: 1
+  # USER-AGENT: 1
+  # TOTAL: 1158
   - DOMAIN,e13252.dscg.akamaiedge.net
   - DOMAIN,h-netflix.online-metrix.net
   - DOMAIN,netflix.com.edgesuite.net
@@ -1164,5 +1164,5 @@ payload:
   - IP-CIDR6,2620:10c:7000::/44,no-resolve
   - IP-CIDR6,2a00:86c0::/32,no-resolve
   - IP-CIDR6,2a03:5640::/32,no-resolve
-#USER-AGENT,Argo*
+  #USER-AGENT,Argo*
   - PROCESS-NAME,com.netflix.mediaclient

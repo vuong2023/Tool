@@ -1,15 +1,15 @@
 payload:
-## [Adblock Plus 2.0]
-## ! Title: EasyList China
-## ! Chinese supplement for the EasyList filters
-## ! Last modified: %timestamp%
-## ! Expires: 4 days (update frequency)
-## ! Homepage: https://github.com/easylist/easylistchina/
-## ! License: https://easylist.to/pages/licence.html
-## !
-## ! Please report any unblocked adverts or problems
-## ! on GitHub (https://github.com/easylist/easylistchina/issues)
-## ! or via e-mail (easylist.china@gmail.com).
+  ## [Adblock Plus 2.0]
+  ## ! Title: EasyList China
+  ## ! Chinese supplement for the EasyList filters
+  ## ! Last modified: %timestamp%
+  ## ! Expires: 4 days (update frequency)
+  ## ! Homepage: https://github.com/easylist/easylistchina/
+  ## ! License: https://easylist.to/pages/licence.html
+  ## !
+  ## ! Please report any unblocked adverts or problems
+  ## ! on GitHub (https://github.com/easylist/easylistchina/issues)
+  ## ! or via e-mail (easylist.china@gmail.com).
 
 
   - DOMAIN-SUFFIX,asd8900.oss-*.aliyuncs.com

@@ -1,10 +1,10 @@
 payload:
-# NAME: AppleMusic
-# DOMAIN: 6
-# DOMAIN-SUFFIX: 3
-# PROCESS-NAME: 1
-# USER-AGENT: 1
-# TOTAL: 11
+  # NAME: AppleMusic
+  # DOMAIN: 6
+  # DOMAIN-SUFFIX: 3
+  # PROCESS-NAME: 1
+  # USER-AGENT: 1
+  # TOTAL: 11
   - DOMAIN,aod-ssl.itunes.apple.com
   - DOMAIN,aod.itunes.apple.com
   - DOMAIN,audio-ssl.itunes.apple.com
@@ -14,5 +14,5 @@ payload:
   - DOMAIN-SUFFIX,applemusic.com
   - DOMAIN-SUFFIX,blobstore.apple.com
   - DOMAIN-SUFFIX,music.apple.com
-#USER-AGENT,Music*
+  #USER-AGENT,Music*
   - PROCESS-NAME,Music

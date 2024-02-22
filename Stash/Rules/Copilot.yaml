@@ -1,11 +1,11 @@
 payload:
-# Author: 可莉🅥
-# Date: 2024-01-05 22:40:35
+  # Author: 可莉🅥
+  # Date: 2024-01-05 22:40:35
   - DOMAIN,api.msn.com
   - DOMAIN,assets.msn.com
   - DOMAIN,copilot.microsoft.com
   - DOMAIN,dealczars.bing-shopping.microsoft-falcon.io
-# DOMAIN,eas.outlook.com
+  # DOMAIN,eas.outlook.com
   - DOMAIN,edgeservices.bing.com
   - DOMAIN,functional.events.data.microsoft.com
   - DOMAIN,gateway.bingviz.microsoftapp.net

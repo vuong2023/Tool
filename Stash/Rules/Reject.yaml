@@ -1,5 +1,5 @@
 payload:
-#AND,((USER-AGENT,Frodo*),(DOMAIN,119.29.29.29))
+  #AND,((USER-AGENT,Frodo*),(DOMAIN,119.29.29.29))
   - DOMAIN,118.89.204.198
   - DOMAIN,a.wkanx.com
   - DOMAIN,a0.app.xiaomi.com
@@ -1495,4 +1495,4 @@ payload:
   - IP-CIDR,61.174.50.214/32,no-resolve
   - IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,no-resolve
   - IP-CIDR6,2402:db40:5100:1011::5/128,no-resolve
-#USER-AGENT,AVOS*
+  #USER-AGENT,AVOS*

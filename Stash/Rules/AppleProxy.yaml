@@ -1,10 +1,10 @@
 payload:
-# NAME: AppleProxy
-# DOMAIN: 27
-# DOMAIN-SUFFIX: 12
-# PROCESS-NAME: 1
-# USER-AGENT: 5
-# TOTAL: 45
+  # NAME: AppleProxy
+  # DOMAIN: 27
+  # DOMAIN-SUFFIX: 12
+  # PROCESS-NAME: 1
+  # USER-AGENT: 5
+  # TOTAL: 45
   - DOMAIN,api-glb-sea.smoot.apple.com
   - DOMAIN,apple.comscoreresearch.com
   - DOMAIN,books.itunes.apple.com
@@ -44,9 +44,9 @@ payload:
   - DOMAIN-SUFFIX,hls.itunes.apple.com
   - DOMAIN-SUFFIX,ocsp.apple.com
   - DOMAIN-SUFFIX,tv.apple.com
-#USER-AGENT,AppleNews*
-#USER-AGENT,AppleTV*
-#USER-AGENT,com.apple.news*
-#USER-AGENT,com.apple.trustd*
-#USER-AGENT,com.apple.tv*
+  #USER-AGENT,AppleNews*
+  #USER-AGENT,AppleTV*
+  #USER-AGENT,com.apple.news*
+  #USER-AGENT,com.apple.trustd*
+  #USER-AGENT,com.apple.tv*
   - PROCESS-NAME,LookupViewService
