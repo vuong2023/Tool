@@ -1,4 +1,4 @@
-# 2024-02-22 8:20
+# 2024-02-22 19:13
 
 name: Fork
 
@@ -1010,6 +1010,8 @@ jobs:
         cd Tool-repo/Stash/Rules
         for file in *.yaml; do
           if [ -f "$file" ]; then
+            # 修改注释
+            sed -i 's/^#/  #/g' "$file"
             # 在首行添加 "payload:"
             sed -i '1s/^/payload:\n/' "$file"
             # 在非注释或空行前添加“  - ”
