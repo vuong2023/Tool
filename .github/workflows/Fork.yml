@@ -1,4 +1,4 @@
-# 2024-02-21 21:50
+# 2024-02-21 8:20
 
 name: Fork
 
@@ -999,11 +999,6 @@ jobs:
             # 如果为IP规则且不包含no-resolve 则添加no-resolve
             awk '/^IP-/ && !/,no-resolve/ {print $0",no-resolve"; next} {print}' "$file" > tmpfile
             mv tmpfile "$file"
-            # 在首行添加 "payload:"
-            sed -i '1s/^/payload:\n/' "$file"
-            # 在非注释或空行前添加“  - ”
-            awk '!/\/\/|#|payload:|^ *$/ {print "  - " $0; next} {print}' "$file" > tmpfile
-            mv tmpfile "$file"
           else
             echo "$file not found."
           fi
@@ -1014,10 +1009,7 @@ jobs:
       run: |
         cd Tool-repo/Stash/Rules
         for file in *.yaml; do
-          if [ "$file" != "Lan.yaml" ] ; then
-            # 如果为IP规则且不包含no-resolve 则添加no-resolve
-            awk '/^IP-/ && !/,no-resolve/ {print $0",no-resolve"; next} {print}' "$file" > tmpfile
-            mv tmpfile "$file"
+          if [ -f "$file" ]; then
             # 在首行添加 "payload:"
             sed -i '1s/^/payload:\n/' "$file"
             # 在非注释或空行前添加“  - ”
