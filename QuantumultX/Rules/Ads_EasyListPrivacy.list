@@ -1,7 +1,7 @@
 ## [Adblock Plus 1.1]
-## ! Version: 202402231530
+## ! Version: 202402241159
 ## ! Title: EasyPrivacy
-## ! Last modified: 23 Feb 2024 15:30 UTC
+## ! Last modified: 24 Feb 2024 11:59 UTC
 ## ! Expires: 4 days (update frequency)
 ## ! *** easylist:template_header.txt ***
 ## ! 
@@ -2796,7 +2796,6 @@ HOST-SUFFIX,log.mediacategory.com,REJECT
 HOST-SUFFIX,log.nordot.jp,REJECT
 HOST-SUFFIX,log.olark.com,REJECT
 HOST-SUFFIX,log.outbrain.com,REJECT
-HOST-SUFFIX,log.outbrainimg.com,REJECT
 HOST-SUFFIX,log.pinterest.com,REJECT
 HOST-SUFFIX,log.reformal.ru,REJECT
 HOST-SUFFIX,log.seekda.com,REJECT
@@ -2881,6 +2880,7 @@ HOST-SUFFIX,page-events-ustats.udemy.com,REJECT
 HOST-SUFFIX,pages-stats.rbl.ms,REJECT
 HOST-SUFFIX,pagesense-collect.zoho.com,REJECT
 HOST-SUFFIX,pagesocket.glam.com,REJECT
+HOST-SUFFIX,pbjs-stream.bydata.com,REJECT
 HOST-SUFFIX,pegasus.unifygroup.com,REJECT
 HOST-SUFFIX,perf-events.cloud.unity3d.com,REJECT
 HOST-SUFFIX,perf.hsforms.com,REJECT
@@ -3322,6 +3322,7 @@ HOST-SUFFIX,v.shopify.com,REJECT
 HOST-SUFFIX,vdrn.redplum.com,REJECT
 HOST-SUFFIX,vercel-vitals.axiom.co,REJECT
 HOST-SUFFIX,video-ad-stats.googlesyndication.com,REJECT
+HOST-SUFFIX,video-analytics-api.cloudinary.com,REJECT
 HOST-SUFFIX,videoevents.outbrain.com,REJECT
 HOST-SUFFIX,vortex.data.microsoft.com,REJECT
 HOST-SUFFIX,vst.sibnet.ru,REJECT
