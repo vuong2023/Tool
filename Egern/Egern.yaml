@@ -6,7 +6,7 @@
 #
 # 适配 Egern 1.16.0(296)及以上 版本
 #
-# 最后更新时间: 2024-2-21 20:08
+# 最后更新时间: 2024-2-24 18:12
 #
 # ================
 
@@ -18,7 +18,7 @@ hijack_dns:
 - '*:53'
 
 # 自定义MaxMind数据库
-geoip_db_url: https://github.com/Repcz/ACL4SSR/blob/X/Rules/Crypto.list
+geoip_db_url: https://raw.githubusercontent.com/Masaiki/GeoIP2-CN/release/Country.mmdb
 
 # 配置为一个 DNS 服务器地址的数组，这些地址可以是 IPv4 或 IPv6 地址，也可以是 "system" 来使用系统 DNS 服务器。
 dns_servers:  # DNS服务器
