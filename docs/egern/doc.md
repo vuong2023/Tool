@@ -22,9 +22,9 @@ https://raw.githubusercontent.com/Repcz/Tool/X/Egern/Egern.yaml
 > 机场订阅本地转换可参考[Sub-Store 教程](https://getupnote.com/share/notes/8SiMnOcwXxZ3xEtK4k2v9Gr3pv32/7522F394-6D73-414E-BE04-1455EDB15B9F)
 
 * 运行 **Egern** ，点击下方的 **工具** 图标
-* 点击 **工具** 页面的 **规则** ，弹出的菜单中滑动至最下方，点击 **节点选择**
-* 将`http://your-service-provider`替换为 **机场订阅**
-* 如果有多个机场，可以在URL下方的输入框中继续填入并 <b>回车确认</b> 
+* 点击 **工具** 页面的 **策略组** 点击 **手动选择**策略组
+* 将 **URL区域** 的 `http://your-service-provider`替换为 **机场订阅**
+* 如果有多个机场，可以在 URL 下方的输入框中继续填入并 <b>回车确认</b> 
 
 <img src="https://raw.githubusercontent.com/Repcz/Tool/X/Egern/Photo/2.JPG" width="900">
 
