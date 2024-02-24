@@ -136,7 +136,7 @@ https://github.com/Repcz/Tool/raw/X/Loon/Rules/Google.list, policy=手动切换,
 
 - 策略组参数`select`：手动选择策略组参数
 - `香港节点,美国节点,狮城节点,日本节点,台湾节点`：表示引用的策略组
-- 筛选节点`All`：当筛选节点下的 [筛选器](loon/nodefilter.md) 作为被引用对象时，此 筛选器 筛选的所有节点，都会被引用到该策略组下
+- 筛选节点`All`：当筛选节点下的 [筛选器](loon/node.md?id=_25-筛选节点) 作为被引用对象时，此 筛选器 筛选的所有节点，都会被引用到该策略组下
 - 测试链接`url = `：测速的url，loon会向该url发起header请求
 - 策略组图标`img-url = `：策略组图标，支持动图
 
@@ -165,7 +165,7 @@ https://github.com/Repcz/Tool/raw/X/Loon/Rules/Google.list, policy=香港节点,
 ```
 
 - 策略组参数`url-test`：自动选择延迟最优策略组参数
-- 筛选节点`HK`：当筛选节点下的 [筛选器](loon/nodefilter.md) 作为被引用对象时，此 筛选器 筛选的所有节点，都会被引用到该策略组下
+- 筛选节点`HK`：当筛选节点下的 [筛选器](loon/node.md?id=_25-筛选节点) 作为被引用对象时，此 筛选器 筛选的所有节点，都会被引用到该策略组下
 - 测试链接`url = `：测速的url，loon会向该url发起header请求
 - 策略组图标`img-url = `：策略组图标，支持动图
 - 测试间隔`interval =`：测速间隔时间，单位秒(s)
@@ -192,7 +192,7 @@ https://github.com/Repcz/Tool/raw/X/Loon/Rules/Google.list, policy=香港节点,
 ```
 
 - 策略组参数`fallback`：自动回退节点/策略组参数
-- 筛选节点`HK`：当筛选节点下的 [筛选器](loon/nodefilter.md) 作为被引用对象时，此 筛选器 筛选的所有节点，都会被引用到该策略组下
+- 筛选节点`HK`：当筛选节点下的 [筛选器](loon/node.md?id=_25-筛选节点) 作为被引用对象时，此 筛选器 筛选的所有节点，都会被引用到该策略组下
 - 测试链接`url = `：测速的url，loon会向该url发起header请求
 - 策略组图标`img-url = `：策略组图标，支持动图
 - 测试间隔`interval =`：测速间隔时间，单位秒(s)
@@ -222,7 +222,7 @@ https://github.com/Repcz/Tool/raw/X/Loon/Rules/Google.list, policy=香港节点,
 ```
 
 - 策略组参数`load-balance`：自动回退节点/策略组参数
-- 筛选节点`HK`：当筛选节点下的 [筛选器](loon/nodefilter.md) 作为被引用对象时，此 筛选器 筛选的所有节点，都会被引用到该策略组下
+- 筛选节点`HK`：当筛选节点下的 [筛选器](loon/node.md?id=_25-筛选节点) 作为被引用对象时，此 筛选器 筛选的所有节点，都会被引用到该策略组下
 - 测试链接`url = `：测速的url，loon会向该url发起header请求
 - 测试间隔`interval =`：测速间隔时间，单位秒(s)
 - 最大超时时间`max-timeout =`：如果一个节点测速超过了这个值，就将该节点认作为不可用节点，不会进行排序，单位毫秒(ms)
