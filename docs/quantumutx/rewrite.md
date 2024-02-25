@@ -26,7 +26,8 @@
 - `$prefs` 用于持久存储：`$prefs.valueForKey(key)`、`$prefs.setValueForKey(value, key)`、`$prefs.removeValueForKey(key)`、`$prefs.removeAllValues()`。
 - 如果日志级别为`debug`，`console.log(message)` 会将日志输出到 Quantumult 日志文件。
 - `setTimeout(function() { }, Interval)` 将在`interval`(ms)后运行函数。
-- `script-request-header`、`script-request-body`、`script-response-header`、`script-response-body` 和 `script-echo-response` 的脚本应保存在本地`我的iPhone - Quantumult X - Scripts`或` iCloud Drive - Quantumult X - 脚本`。 示例可以在 https://github.com/crossutility/Quantumult-X 找到
+- `script-request-header`、`script-request-body`、`script-response-header`、`script-response-body` 和 `script-echo-response` 的脚本应保存在本地`我的iPhone - Quantumult X - Scripts`或` iCloud Drive - Quantumult X - 脚本`。
+- 示例可以在 https://github.com/crossutility/Quantumult-X 找到。
 
 #### 7.1.2 配置文件添加
 
@@ -76,7 +77,11 @@ hostname = hfapp-service.qweather.net
 
 当然也可以通过UI添加：
 
-注意：URL部分只需要填写 `^https:\/\/hfapp-service\.qweather\.net\/v2\.0\/app\/ad\/list\?`，无需填写`url`
+注意：URL部分只需要填写以下部分，无需填写`url`
+
+```
+^https:\/\/hfapp-service\.qweather\.net\/v2\.0\/app\/ad\/list\?
+```
 
 <img src="https://raw.githubusercontent.com/Repcz/Tool/X/QuantumultX/Photo/UI9-3.PNG" width="1200">
 
