@@ -113,19 +113,31 @@ https://github.com/Masaiki/GeoIP2-CN/raw/release/Country.mmdb
 
 
 以下方的链接举例(这是个网页，不是真正能使用的资源链接)：
-`https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/12306/12306.list`
+
+```
+https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/12306/12306.list
+```
 
 例如在末尾添加`?raw=ture`：
-`https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/12306/12306.list?raw=ture`
+
+```
+https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/12306/12306.list?raw=ture
+```
 
 或者直接点击`raw`或者`view`，⁠使用跳转后的链接：
-`https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/12306/12306.list`
+
+```
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/12306/12306.list
+```
 
 <img src="https://raw.githubusercontent.com/Repcz/Tool/X/QuantumultX/Photo/raw1.jpg" >
 
 
 或者将链接里的`blob`⁠修改为`raw`：
-`https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/QuantumultX/12306/12306.list`
+
+```
+https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/QuantumultX/12306/12306.list
+```
 
 
 </details>

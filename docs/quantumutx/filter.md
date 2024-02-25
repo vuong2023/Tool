@@ -269,22 +269,36 @@ https://example.com/reject.txt, tag=🛡️ Block Ads, force-policy=reject, upda
 <details>
   <summary> 点此查看raw格式教程</summary>
 
-
 以下方的链接举例(这是个网页，不是真正能使用的资源链接)：
-`https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/12306/12306.list`
+
+```
+https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/12306/12306.list
+```
 
 例如在末尾添加`?raw=ture`：
-`https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/12306/12306.list?raw=ture`
+
+```
+https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/12306/12306.list?raw=ture
+```
 
 或者直接点击`raw`或者`view`，⁠使用跳转后的链接：
-`https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/12306/12306.list`
+
+```
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/12306/12306.list
+```
 
 <img src="https://raw.githubusercontent.com/Repcz/Tool/X/QuantumultX/Photo/raw1.jpg" >
 
-<img src="https://raw.githubusercontent.com/Repcz/Tool/X/QuantumultX/Photo/raw2.png" >
+<img src="https://raw.githubusercontent.com/Repcz/Tool/X/QuantumultX/Photo/raw2.jpg" >
+
+
 
 或者将链接里的`blob`⁠修改为`raw`：
-`https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/QuantumultX/12306/12306.list`
+
+```
+https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/QuantumultX/12306/12306.list
+```
+
 
 
 </details>
@@ -307,20 +321,32 @@ https://example.com/reject.txt, tag=🛡️ Block Ads, force-policy=reject, upda
 
 
 以下方的链接举例(这是个网页，不是真正能使用的资源链接)：
-`https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/12306/12306.list`
+
+```
+https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/12306/12306.list
+```
 
 例如在末尾添加`?raw=ture`：
-`https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/12306/12306.list?raw=ture`
+
+```
+https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/12306/12306.list?raw=ture
+```
 
 或者直接点击`raw`或者`view`，⁠使用跳转后的链接：
-`https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/12306/12306.list`
+
+```
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/12306/12306.list
+```
 
 <img src="https://raw.githubusercontent.com/Repcz/Tool/X/QuantumultX/Photo/raw1.jpg" >
 
-<img src="https://raw.githubusercontent.com/Repcz/Tool/X/QuantumultX/Photo/raw2.png" >
+<img src="https://raw.githubusercontent.com/Repcz/Tool/X/QuantumultX/Photo/raw2.jpg" >
 
 或者将链接里的`blob`⁠修改为`raw`：
-`https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/QuantumultX/12306/12306.list`
+
+```
+https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/QuantumultX/12306/12306.list
+```
 
 
 </details>
@@ -469,5 +495,6 @@ geoip, cn, direct
 - 或者可以如下图所示操作，通过配置片段，新建本地文件，将`geoip, cn ,direct`填入，文件名可自定义；此时资源路径会自动填充。
 <img src="https://raw.githubusercontent.com/Repcz/Tool/X/QuantumultX/Photo/UI2-3.JPEG" width="1200">
 
-  - 或者从 `设置`→`配置文件`区域-`配置片段`→`分流`,一样可进行添加。
+- 或者从 `设置`→`配置文件`区域-`配置片段`→`分流`,一样可进行添加。
+
 <img src="https://raw.githubusercontent.com/Repcz/Tool/X/QuantumultX/Photo/UI2-4.jpg" width="600">

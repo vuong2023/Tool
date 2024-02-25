@@ -169,25 +169,46 @@ https://example.com/rewrite.conf, tag=🛡️ Block Ads, update-interval=172800,
 
 <img src="https://raw.githubusercontent.com/Repcz/Tool/X/QuantumultX/Photo/UI9-5.PNG" width="900">
 
-⚠️ 注意：
+!> ⚠️ 注意
 
 - 资源路径，需要填写**raw格式**
 
+<details>
+  <summary> 点此查看raw格式教程</summary>
+
 以下方的链接举例(这是个网页，不是真正能使用的资源链接)：
-`https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/12306/12306.list`
+
+```
+https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/12306/12306.list
+```
 
 例如在末尾添加`?raw=ture`：
-`https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/12306/12306.list?raw=ture`
+
+```
+https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/12306/12306.list?raw=ture
+```
 
 或者直接点击`raw`或者`view`，⁠使用跳转后的链接：
-`https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/12306/12306.list`
+
+```
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/12306/12306.list
+```
 
 <img src="https://raw.githubusercontent.com/Repcz/Tool/X/QuantumultX/Photo/raw1.jpg" >
 
-<img src="https://raw.githubusercontent.com/Repcz/Tool/X/QuantumultX/Photo/raw2.png" >
+<img src="https://raw.githubusercontent.com/Repcz/Tool/X/QuantumultX/Photo/raw2.jpg" >
+
+
 
 或者将链接里的`blob`⁠修改为`raw`：
-`https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/QuantumultX/12306/12306.list`
+
+```
+https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/QuantumultX/12306/12306.list
+```
+
+
+
+</details>
 
 - 「资源解析器」：是对引用的资源文件内容(远程or配置片段)，进行解析/转换/修改，变成 Quantumult X 支持的内容，可用在Quantumult X 的三个主要模块：①节点 ②分流 ③重写，具体使用说明见解析器下方教程；
 
@@ -206,6 +227,7 @@ https://example.com/rewrite.conf, tag=🛡️ Block Ads, update-interval=172800,
 
   Lento  
 
+  # 带有重写规则和主机名
   [rewrite_local]
   https://lentoapp.com:8081/getUserMemberShipInfo url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/Lento.js
 
