@@ -6,7 +6,7 @@
 * [策略组](quantumutx/policy.md)
 * [DNS & 域名映射](quantumutx/dns.md)
 * [MitM & 证书](quantumutx/mitm.md)
-* [重写(rewrite)](quantumutx/rewrite.md)
+* [重写`[rewrite]`](quantumutx/rewrite.md)
 * [HTTP 请求](quantumutx/http-js.md)
 * [其他设置](quantumutx/other-set.md)
 * [配置文件`[general]`部分](quantumutx/general.md)

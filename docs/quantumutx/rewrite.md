@@ -1,4 +1,4 @@
-# 7. 重写(rewrite)
+# 7. 重写`[rewrite]`
 
 以下主要讲的是 `[rewrite_local]`、`[rewrite_remote]` 或 `[mitm]`  区块下的内容，所以示例都以 `[rewrite_local]`、`[rewrite_remote]` 或 `[mitm]` 开头表明在其之下，并不是让你每个参数字段前都加上 `[rewrite_local]`、`[rewrite_remote]` 或 `[mitm]`。
 
