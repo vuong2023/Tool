@@ -97,7 +97,7 @@ https://github.com/Masaiki/GeoIP2-CN/raw/release/Country.mmdb
 
 <img src="https://raw.githubusercontent.com/Repcz/Tool/X/Shadowrocket/Photo/6.4.PNG" width="1200">
 
-### 安装模块
+## 安装模块
 
 !> 模块功能大多依赖于 [证书设置](#证书设置)
 
