@@ -196,7 +196,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Quant
 
 <img src="https://raw.githubusercontent.com/Repcz/Tool/X/QuantumultX/Photo/raw1.jpg" >
 
-<img src="https://raw.githubusercontent.com/Repcz/Tool/X/QuantumultX/Photo/raw2.jpg" >
+<img src="https://raw.githubusercontent.com/Repcz/Tool/X/QuantumultX/Photo/raw2.png" >
 
 
 
