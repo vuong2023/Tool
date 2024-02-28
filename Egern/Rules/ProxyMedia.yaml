@@ -332,4 +332,4 @@ ip_cidr_set:
 ip_cidr6_set:
 asn_set:
 url_regex_set:
-- ^https?:\/\/www\.amazon\.com\/(Amazon-Video|gp\/video)\/
+- '^https?:\/\/www\.amazon\.com\/(Amazon-Video|gp\/video)\/'

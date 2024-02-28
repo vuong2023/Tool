@@ -76,8 +76,8 @@ domain_set:
 - is.snssdk.com
 - i.snssdk.com
 - v6-novelapp.ixigua.com
-- *novelapp.ixigua.com
-- *default.ixigua.com
+- .*novelapp.ixigua.com
+- .*default.ixigua.com
 - msync-im1-vip6-std.easemob.com
 - apd-pcdnwxlogin.teg.tencent-cloud.net
 - api.iegadp.qq.com
