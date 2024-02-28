@@ -1,6 +1,6 @@
 # 2024-02-28 08:33
 
-name: 复刻
+name: Fork & Edit
 
 on:
   workflow_dispatch:
@@ -1189,7 +1189,7 @@ jobs:
               /^IP-CIDR,/ {ip_cidr_set = ip_cidr_set "\n- " $2}
               /^IP-CIDR6,/ {ip_cidr6_set = ip_cidr6_set "\n- " $2}
               /^IP-ASN,/ {asn_set = asn_set "\n- '\''" $2 "'\''"}
-              /^URL-REGEX,/ {url_regex_set = url_regex_set '\''" $2 "'\''"}
+              /^URL-REGEX,/ {url_regex_set = url_regex_set "\n- '\''" $2 "'\''"}
             END {
               # 输出集合
               print "domain_set:" domain_set
