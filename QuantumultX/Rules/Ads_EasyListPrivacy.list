@@ -1,7 +1,7 @@
 ## [Adblock Plus 1.1]
-## ! Version: 202403060118
+## ! Version: 202403061509
 ## ! Title: EasyPrivacy
-## ! Last modified: 06 Mar 2024 01:18 UTC
+## ! Last modified: 06 Mar 2024 15:09 UTC
 ## ! Expires: 4 days (update frequency)
 ## ! *** easylist:template_header.txt ***
 ## ! 
@@ -2977,6 +2977,7 @@ HOST-SUFFIX,r.skimresources.com,REJECT
 HOST-SUFFIX,ramp.purch.com,REJECT
 HOST-SUFFIX,reach-id.orbit.tm-awx.com,REJECT
 HOST-SUFFIX,realm.hearst3pcc.com,REJECT
+HOST-SUFFIX,receive.wmcdp.io,REJECT
 HOST-SUFFIX,recs.shareaholic.com,REJECT
 HOST-SUFFIX,refer.wordpress.com,REJECT
 HOST-SUFFIX,referrer.disqus.com,REJECT
@@ -4206,6 +4207,7 @@ HOST-SUFFIX,euclid.kuula.co,REJECT
 HOST-SUFFIX,eurogamer-uk.eurogamer.net,REJECT
 HOST-SUFFIX,event-api.reverb.com,REJECT
 HOST-SUFFIX,event-collector.moviesanywhere.com,REJECT
+HOST-SUFFIX,event-router.olympics.com,REJECT
 HOST-SUFFIX,event.platform.tunein.com,REJECT
 HOST-SUFFIX,eventlog.jackpot.de,REJECT
 HOST-SUFFIX,events-prod.autolist.com,REJECT
