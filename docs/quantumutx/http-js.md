@@ -31,7 +31,7 @@ event-interaction https://raw.githubusercontent.com/xream/scripts/main/surge/mod
 其基本格式为
 
 ```
-`<脚本参数>, <资源链接>, <资源标签>, <资源图标>, <是否启用>`
+<脚本参数>, <资源链接>, <资源标签>, <资源图标>, <是否启用>
 ```
 
 - 脚本参数
@@ -51,7 +51,9 @@ Tips：脚本任务需 Quantumult X Tunnel （VPN） 处于运行状态，以及
 
 - 如果给的是「完整的任务格式」，如：
   
-  `event-network https://raw.githubusercontent.com/xream/scripts/main/surge/modules/network-info/net-lsp-x.js, tag=网络信息变化 𝕏, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Global.png, enabled=true`
+```
+event-network https://raw.githubusercontent.com/xream/scripts/main/surge/modules/network-info/net-lsp-x.js, tag=网络信息变化 𝕏, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Global.png, enabled=true
+```
 
   可通过右上角 `＋`→ `文本方式添加`，直接粘贴即可 
 
