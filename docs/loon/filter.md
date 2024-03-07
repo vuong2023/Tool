@@ -235,8 +235,42 @@ USER-AGENT,TIM*,DIRECT
 URL-REGEX,^http://google\.com,DIRECT
 ```
 
+#### 3.2.4 端口规则
 
-#### 3.2.4 `FINAL`规则
+根据请求的源端口或者目标端口进行匹配（3.1.7+）
+
+- 表示特定的某个端口，如`DEST-PORT,443,DIRECT`
+- 表示端口闭区间，如`DEST-PORT,80-443,DIRECT`
+- 使用>, <, <=, >= 表示一个无穷区间，如`DEST-PORT,>=443,DIRECT`
+
+##### SRC-PORT
+
+```
+SRC-PORT,443,DIRECT
+SRC-PORT,80-443,DIRECT
+SRC-PORT,>=443,DIRECT
+```
+
+##### DEST-PORT
+
+```
+DEST-PORT,443,DIRECT
+DEST-PORT,80-443,DIRECT
+DEST-PORT,>=443,DIRECT
+```
+
+#### 3.2.5 协议类规则
+
+根据请求的协议类型进行匹配（3.1.7+），目前支持`HTTP/HTTPS/TCP/QUIC/STUN/UDP`
+
+###### PROTOCOL
+
+```
+PROTOCOL,STUN,REJECT
+```
+
+
+#### 3.2.6 `FINAL`规则
 
 在本地规则的末尾始终有一个 `FINAL` 类型规则兜底
 
