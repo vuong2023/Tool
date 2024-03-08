@@ -1,9 +1,7 @@
 #!name=功能｜预览 QX 资源
 #!desc=解析QX URL Scheme @chengkongyiban
 #!category=⚙️ ▸ Function
-#!author = chengkongyiban
-#!update = 2023-7-27
-#!source = https://github.com/chengkongyiban/shadowrocket/raw/main/scripts/qx-resource-preview.js
+#!update=2024-03-08 22:02
 
 [Script]
 QX资源预览 = type=http-request, pattern=^https:\/\/quantumult\.app\/x\/open-app\/add-resource\?remote-resource=, script-path=https://github.com/chengkongyiban/shadowrocket/raw/main/scripts/qx-resource-preview.js, requires-body=true, max-size=-1, timeout=60
