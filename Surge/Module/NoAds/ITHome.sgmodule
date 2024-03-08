@@ -1,9 +1,8 @@
 #!name=去广告｜IT之家
 #!desc=IT之家去广告 @keywos 
 #!category=⚙️ ▸ NoAds
-#!author = keywos 
-#!update = 2023-10-23 
-#!source = https://github.com/Keywos/rule/raw/main/module/noAdrule.sgmodule
+#!update=2024-03-08 22:02
+
 
 [URL Rewrite]
 # IT之家 api.zuihuimai.com, dat.ruanmei.com
