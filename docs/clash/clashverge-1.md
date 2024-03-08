@@ -1,6 +1,3 @@
-
-## Clash Verge 下载
-
 ### Clash Verge 有哪些版本？
 
 * [clash-verge](https://github.com/zzzgydi/clash-verge/releases)：原版，受Clash事件影响，已停止更新，仓库归档
