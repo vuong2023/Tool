@@ -1,7 +1,7 @@
 ## [Adblock Plus 1.1]
-## ! Version: 202403071032
+## ! Version: 202403091019
 ## ! Title: EasyPrivacy
-## ! Last modified: 07 Mar 2024 10:32 UTC
+## ! Last modified: 09 Mar 2024 10:19 UTC
 ## ! Expires: 4 days (update frequency)
 ## ! *** easylist:template_header.txt ***
 ## ! 
@@ -122,6 +122,7 @@ HOST-SUFFIX,envato.market,REJECT
 HOST-SUFFIX,epsilondelta.co,REJECT
 HOST-SUFFIX,eqy.link,REJECT
 HOST-SUFFIX,etop.ro,REJECT
+HOST-SUFFIX,eval.privateapi.click,REJECT
 HOST-SUFFIX,everesttech.net,REJECT
 HOST-SUFFIX,experianmatch.info,REJECT
 HOST-SUFFIX,ezodn.com,REJECT
@@ -167,6 +168,7 @@ HOST-SUFFIX,g990421676.co,REJECT
 HOST-SUFFIX,gbqofs.com,REJECT
 HOST-SUFFIX,geoedge.be,REJECT
 HOST-SUFFIX,geotargetly-api-*.com,REJECT
+HOST-SUFFIX,getdeviceinf.com,REJECT
 HOST-SUFFIX,glamipixel.com,REJECT
 HOST-SUFFIX,glimr.io,REJECT
 HOST-SUFFIX,glookup.info,REJECT
@@ -269,7 +271,6 @@ HOST-SUFFIX,pixmg.com,REJECT
 HOST-SUFFIX,pixrealm.com,REJECT
 HOST-SUFFIX,pjstat.com,REJECT
 HOST-SUFFIX,plausiblecdn.co,REJECT
-HOST-SUFFIX,privateapi.click,REJECT
 HOST-SUFFIX,procroanalytics.com,REJECT
 HOST-SUFFIX,progmxs.com,REJECT
 HOST-SUFFIX,pushvisit.xyz,REJECT
@@ -2708,6 +2709,7 @@ HOST-SUFFIX,f-log-at.grammarly.io,REJECT
 HOST-SUFFIX,f-log-test.grammarly.io,REJECT
 HOST-SUFFIX,fcmatch.google.com,REJECT
 HOST-SUFFIX,fcmatch.youtube.com,REJECT
+HOST-SUFFIX,feliz.data.tm-awx.com,REJECT
 HOST-SUFFIX,filament-stats.herokuapp.com,REJECT
 HOST-SUFFIX,fingerprinter-production.herokuapp.com,REJECT
 HOST-SUFFIX,firebaselogging-pa.googleapis.com,REJECT
@@ -38997,6 +38999,7 @@ HOST-SUFFIX,data-logdelivery.wconcept.co.kr,REJECT
 HOST-SUFFIX,hits.zdnet.co.kr,REJECT
 HOST-SUFFIX,kyson.kakao.com,REJECT
 HOST-SUFFIX,l.m.naver.com,REJECT
+HOST-SUFFIX,ljc.coupang.com,REJECT
 HOST-SUFFIX,log.etoday.co.kr,REJECT
 HOST-SUFFIX,log.kinolights.com,REJECT
 HOST-SUFFIX,log.zdnet.co.kr,REJECT
