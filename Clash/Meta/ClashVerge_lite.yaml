@@ -2,9 +2,9 @@
 # TG:https://t.me/QVQ_Channel
 # 以 '#' 或 '//' 开头的配置文件行为注释行
 #
-# 此配置仅适用于Clash Verge/ClashMetaForAndroid,其他ClashMeta客户端未经测试
+# 此配置仅适用于Clash Verg Rev (Version ≥ 1.5.6）,其他ClashMeta客户端未经测试
 #
-# 最后更新时间: 2023/12/29
+# 最后更新时间: 2024-3-10 20:10
 #
 # ================
 
@@ -68,22 +68,22 @@ dns:
 ###建立锚点
     
 # 策略组引用相关参数
-pg: &pg {type: select, proxies: [🚀 手动切换, 🇭🇰 香港节点, 🇺🇸 美国节点, 🇸🇬 狮城节点, 🇯🇵 日本节点,  🇨🇳 台湾节点, ♻️ 自动选择, ⚠️ 故障转移, DIRECT]}
+pg: &pg {type: select, proxies: [手动切换, 香港节点, 美国节点, 狮城节点, 日本节点,  台湾节点, 自动选择, 故障转移, DIRECT]}
 
 # 订阅更新和延迟测试相关参数
-p: &p {type: http, interval: 86400, health-check: {enable: true, url: http://www.gstatic.com/generate_204, interval: 1800}}
+p: &p {type: http, interval: 86400, health-check: {enable: true, url: http://1.1.1.1/generate_204, interval: 1800}}
 
 # 自动选择策略组：选取延迟最低节点
-auto: &auto {type: url-test, lazy: true, url: http://www.gstatic.com/generate_204, interval: 900, use: [Subscribe]}
+auto: &auto {type: url-test, lazy: true, url: http://1.1.1.1/generate_204, interval: 900, use: [Subscribe]}
 
 # 手动选择策略组：手动选择想要的节点/策略组
 select: &select {type: select, use: [Subscribe]}
 
 # 故障回退策略组：策略组将按顺序选择你列表中第一个可用的节点
-fallback: &fallback {type: fallback, lazy: true, url: http://www.gstatic.com/generate_204, interval: 900, use: [Subscribe]}
+fallback: &fallback {type: fallback, lazy: true, url: http://1.1.1.1/generate_204, interval: 900, use: [Subscribe]}
 
 # 负载均衡策略组：不同的请求将使用不同的代理节点
-load-balance: &load-balance {type: load-balance, lazy: true, url: http://www.gstatic.com/generate_204, interval: 900, use: [Subscribe]}
+load-balance: &load-balance {type: load-balance, lazy: true, url: http://1.1.1.1/generate_204, interval: 900, use: [Subscribe]}
 
 # classical规则相关
 c: &c {type: http, behavior: classical, interval: 86400}
@@ -107,77 +107,81 @@ proxy-groups:
 
   #分流分组
 
-  - {name: 🚀 手动切换, type: select, use: [Subscribe], proxies: [🇭🇰 香港节点, 🇺🇸 美国节点, 🇸🇬 狮城节点, 🇯🇵 日本节点, 🇨🇳 台湾节点, DIRECT]}
+  - {name: 手动切换, type: select, use: [Subscribe], proxies: [香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, DIRECT], icon: https://github.com/clash-verge-rev/clash-verge-rev/raw/main/src/assets/image/logo.png, }
 
-  - {name: 🌏 国外网站, <<: *pg}
+  - {name: 国外网站, <<: *pg, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Global.png}
 
-  - {name: 📽️ 国际媒体, <<: *pg}
+  - {name: 国际媒体, <<: *pg, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png}
 
-  - {name: 🍎 苹果服务, <<: *pg}
+  - {name: 苹果服务, <<: *pg, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple_1.png}
 
-  - {name: 🖥️ 微软服务, <<: *pg}
+  - {name: 微软服务, <<: *pg, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Microsoft.png}
 
-  - {name: 🌌 谷歌服务, <<: *pg}
+  - {name: 谷歌服务, <<: *pg, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Google_Search.png}
 
-  - {name: 📟 电报消息, <<: *pg}
+  - {name: 电报消息, <<: *pg, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram.png}
 
-  - {name: 🐦 推特消息, <<: *pg}
+  - {name: 推特消息, <<: *pg, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Twitter.png}
 
-  - {name: 🤖 OpenAI, <<: *pg}
+  - {name: OpenAI, <<: *pg, icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/OpenAI.png}
 
-  - {name: 🎮 游戏平台, <<: *pg}
+  - {name: 游戏平台, <<: *pg, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Game.png}
 
-  - {name: 📺 哔哩哔哩, type: select, proxies: [DIRECT, 🇭🇰 香港节点, 🇨🇳 台湾节点]}
+  - {name: Emby, <<: *pg, use: [Subscribe], icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Emby.png}
 
-  - {name: 🛑 AdBlock, type: select, proxies: [REJECT, DIRECT]}
+  - {name: 哔哩哔哩, type: select, proxies: [DIRECT, 香港节点, 台湾节点], icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/bilibili.png}
 
-  - {name: 🐟 兜底分流, <<: *pg}
+  - {name: 国内网站, type: select, proxies: [DIRECT, 手动切换], icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/China_Map.png}
+
+  - {name: 广告拦截, type: select, proxies: [REJECT, DIRECT], icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Advertising.png}
+
+  - {name: 兜底分流, <<: *pg, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color//Final.png}
 
   #节点地区分组
 
-  - {name: 🇭🇰 香港节点, <<: *auto, filter: "^(?=.*((?i)🇭🇰|香港|(\b(HK|Hong)\b)))(?!.*((?i)回国|校园|游戏|(\b(GAME)\b))).*$"}
+  - {name: 香港节点, <<: *auto, filter: "^(?=.*((?i)🇭🇰|香港|(\b(HK|Hong)\b)))(?!.*((?i)回国|校园|游戏|(\b(GAME)\b))).*$", icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png}
 
-  - {name: 🇺🇸 美国节点, <<: *auto, filter: "^(?=.*((?i)🇺🇸|美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|(\b(US|United States)\b)))(?!.*((?i)回国|校园|游戏|(\b(GAME)\b))).*$"}
+  - {name: 美国节点, <<: *auto, filter: "^(?=.*((?i)🇺🇸|美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|(\b(US|United States)\b)))(?!.*((?i)回国|校园|游戏|(\b(GAME)\b))).*$", icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png}
 
-  - {name: 🇸🇬 狮城节点, <<: *auto, filter: "^(?=.*((?i)🇸🇬|新加坡|狮|(\b(SG|Singapore)\b)))(?!.*((?i)回国|校园|游戏|(\b(GAME)\b))).*$"}
+  - {name: 狮城节点, <<: *auto, filter: "^(?=.*((?i)🇸🇬|新加坡|狮|(\b(SG|Singapore)\b)))(?!.*((?i)回国|校园|游戏|(\b(GAME)\b))).*$", icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Singapore.png}
 
-  - {name: 🇯🇵 日本节点, <<: *auto, filter: "^(?=.*((?i)🇯🇵|日本|川日|东京|大阪|泉日|埼玉|(\b(JP|Japan)\b)))(?!.*((?i)回国|校园|游戏|(\b(GAME)\b))).*$"}
+  - {name: 日本节点, <<: *auto, filter: "^(?=.*((?i)🇯🇵|日本|川日|东京|大阪|泉日|埼玉|(\b(JP|Japan)\b)))(?!.*((?i)回国|校园|游戏|(\b(GAME)\b))).*$", icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png}
 
-  - {name: 🇨🇳 台湾节点, <<: *auto, filter: "(?i)🇹🇼|台湾|(\b(TW|Tai|Taiwan)\b)"}
+  - {name: 台湾节点, <<: *auto, filter: "(?i)🇹🇼|台湾|(\b(TW|Tai|Taiwan)\b)", icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/China.png}
 
-  - {name: ♻️ 自动选择, <<: *auto}
+  - {name: 自动选择, <<: *auto, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Auto.png}
 
-  - {name: ⚠️ 故障转移, <<: *fallback}
+  - {name: 故障转移, <<: *fallback, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hijacking.png}
 
  
 rules:
-  - GEOSITE,category-ads-all,🛑 AdBlock
-  - GEOSITE,openai,🤖 OpenAI
-  - GEOSITE,category-games,🎮 游戏平台
-  - GEOSITE,netflix,📽️ 国际媒体
-  - GEOIP,netflix,📽️ 国际媒体,no-resolve
-  - GEOSITE,hbo,📽️ 国际媒体
-  - GEOSITE,disney,📽️ 国际媒体
-  - GEOSITE,primevideo,📽️ 国际媒体
-  - GEOSITE,github,🖥️ 微软服务
-  - GEOSITE,telegram,📟 电报消息
-  - GEOIP,telegram,📟 电报消息,no-resolve
-  - GEOSITE,twitter,🐦 推特消息
-  - GEOIP,twitter,🐦 推特消息,no-resolve
-  - GEOSITE,apple,🍎 苹果服务
-  - GEOIP,apple,🍎 苹果服务,no-resolve
-  - GEOSITE,microsoft,🖥️ 微软服务
-  - GEOSITE,youtube,🌌 谷歌服务
-  - GEOSITE,google,🌌 谷歌服务
-  - GEOIP,google,🌌 谷歌服务,no-resolve
+  - GEOSITE,category-ads-all,AdBlock
+  - GEOSITE,openai,OpenAI
+  - GEOSITE,category-games,游戏平台
+  - GEOSITE,netflix,国际媒体
+  - GEOIP,netflix,国际媒体,no-resolve
+  - GEOSITE,hbo,国际媒体
+  - GEOSITE,disney,国际媒体
+  - GEOSITE,primevideo,国际媒体
+  - GEOSITE,github,微软服务
+  - GEOSITE,telegram,电报消息
+  - GEOIP,telegram,电报消息,no-resolve
+  - GEOSITE,twitter,推特消息
+  - GEOIP,twitter,推特消息,no-resolve
+  - GEOSITE,apple,苹果服务
+  - GEOIP,apple,苹果服务,no-resolve
+  - GEOSITE,microsoft,微软服务
+  - GEOSITE,youtube,谷歌服务
+  - GEOSITE,google,谷歌服务
+  - GEOIP,google,谷歌服务,no-resolve
   - GEOSITE,geolocation-!cn,国外网站
-  - GEOSITE,bilibili,📺 哔哩哔哩
-  - GEOIP,bilibili,📺 哔哩哔哩,no-resolve
+  - GEOSITE,bilibili,哔哩哔哩
+  - GEOIP,bilibili,哔哩哔哩,no-resolve
   - GEOSITE,private,DIRECT
   - GEOIP,private,DIRECT,no-resolve
   - GEOSITE,cn,DIRECT
   - GEOIP,CN,DIRECT
-  - MATCH,🐟 兜底分流
+  - MATCH,兜底分流
 
 script:
   shortcuts:
