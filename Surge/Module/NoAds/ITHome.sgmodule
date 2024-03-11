@@ -1,8 +1,6 @@
-#!name=去广告｜IT之家
-#!desc=IT之家去广告 @keywos 
+#!name=去广告｜IT 之家
+#!desc=IT 之家去广告\n作者：@keywos
 #!category=⚙️ ▸ NoAds
-#!update=2024-03-08 22:02
-
 
 [URL Rewrite]
 # IT之家 api.zuihuimai.com, dat.ruanmei.com
