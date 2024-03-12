@@ -43,7 +43,7 @@ event-interaction https://raw.githubusercontent.com/xream/scripts/main/surge/mod
 
 - `enabled`：是否启用该 HTTP 请求，若不使用可改为 `false`；
 
-Tips：脚本任务需 Quantumult X Tunnel （VPN） 处于运行状态，以及计划任务开关(右上角⏰)为开启状态
+!> 脚本任务需 Quantumult X Tunnel （VPN） 处于运行状态，以及计划任务开关(右上角⏰)为开启状态
 
 #### 8.1.2 UI 添加
 
@@ -67,7 +67,7 @@ event-network https://raw.githubusercontent.com/xream/scripts/main/surge/modules
 
 #### 8.2 执行脚本
 
-Tips：脚本任务需 Quantumult X Tunnel （VPN） 处于运行状态，以及计划任务开关(右上角⏰)为开启状态
+!> 脚本任务需 Quantumult X Tunnel （VPN） 处于运行状态，以及计划任务开关(右上角⏰)为开启状态
 
 - `event-network`：对应「网络切换脚本」，当网络发生变化时自动执行
 
