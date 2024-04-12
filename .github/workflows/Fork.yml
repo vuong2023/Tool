@@ -17,7 +17,7 @@ jobs:
     - name: Checkout target repository
       uses: actions/checkout@v4.1.0
       with:
-        repository: Repcz/Tool
+        repository: vuong2023/Tool
         path: Tool-repo
 
 ######
