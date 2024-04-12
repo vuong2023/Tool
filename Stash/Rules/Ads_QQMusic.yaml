@@ -1,18 +1,17 @@
 payload:
   # 来源：https://gitlab.com/lodepuly/vpn_tool/-/blob/master/Tool/Loon/Plugin/QQMusic_remove_ads.plugin
-  # 2024-01-10 13:51:07
 
-  - DOMAIN,adstats.tencentmusic.com-DROP
-  - DOMAIN,ad.tencentmusic.com-DROP
+  - DOMAIN,adstats.tencentmusic.com
+  - DOMAIN,ad.tencentmusic.com
   - DOMAIN,adcdn.tencentmusic.com
   - DOMAIN,adcdn6.tencentmusic.com
   - DOMAIN,adexpo.tencentmusic.com
   - DOMAIN,adclick.tencentmusic.com
-  - DOMAIN,otheve.beacon.qq.com-DROP
-  - DOMAIN,mazu.m.qq.com-DROP
-  - DOMAIN,monitor.music.qq.com-DROP
+  - DOMAIN,otheve.beacon.qq.com
+  - DOMAIN,mazu.m.qq.com
+  - DOMAIN,monitor.music.qq.com
   - DOMAIN,stat.y.qq.com
-  - DOMAIN,tmead.y.qq.com-NO-DROP
+  - DOMAIN,tmead.y.qq.com-NO
   - DOMAIN,oth.str.mdt.qq.com
   - DOMAIN,h.trace.qq.com
   - DOMAIN,sdk.e.qq.com
@@ -20,4 +19,3 @@ payload:
   - DOMAIN,us.l.qq.com
   - DOMAIN,tangram.e.qq.com
   - DOMAIN-SUFFIX,imtmp.net
-

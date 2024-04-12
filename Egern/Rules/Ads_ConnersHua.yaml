@@ -58,6 +58,7 @@ domain_set:
 - adextra.51wnl-cq.com
 - log.51wnl-cq.com
 - r.51wnl-cq.com
+- hc-ssp.sm.cn
 - tunion-api.m.taobao.com
 - ad.mobile.youku.com
 - adx.op.cp18.ott.cibntv.net
@@ -188,7 +189,6 @@ domain_set:
 - hui.sohu.com
 - ads.snapchat.com
 - adsapi.snapchat.com
-- data-hoisin.coocaa.com
 - adsmind.apdcdn.tc.qq.com
 - adsmind.gdtimg.com
 - adsmind.tc.qq.com
@@ -775,7 +775,7 @@ domain_suffix_set:
 - ad.daum.net
 - ad.g.daum.net
 - ads.roku.com
-- iadsdk.apple.comX
+- iadsdk.apple.com
 - ads.internal.unity3d.com
 - ads.prd.ie.internal.unity3d.com
 - unityads.unity3d.com
@@ -822,8 +822,6 @@ domain_suffix_set:
 - ads.sohu.com
 - aty.sohu.com
 - pv.sohu.com
-- hoisin.coocaa.com
-- hoisin.coocaatv.com
 - e.qq.com
 - gdt.qq.com
 - l.qq.com
@@ -833,6 +831,8 @@ domain_suffix_set:
 - gemini.yahoo.com
 domain_keyword_set:
 - adservice
+- hoisin.coocaa.com
+- hoisin.coocaatv.com
 - stsdk.vivo.com.cn
 - stsdk.vivoglobal.com
 domain_regex_set:

@@ -1,4 +1,4 @@
-# 2024-03-01 09:05
+# 2024-04-07 22:30
 
 # ======= A ======= #
 # 阿里巴巴
@@ -62,7 +62,6 @@ DOMAIN,adttrackingprd.hwwt8.com
 # ======= G ======= #
 # 高德地图
 DOMAIN,amap-aos-info-nogw.amap.com
-DOMAIN,free-aos-cdn-image.amap.com
 # 工商银行
 DOMAIN,pageviewp.icbc.com.cn
 DOMAIN-SUFFIX,mall.icbc.com.cn
@@ -195,6 +194,11 @@ DOMAIN-SUFFIX,163jiasu.com
 # 微博 开屏广告
 DOMAIN,huodong.weibo.cn
 DOMAIN-SUFFIX,biz.weibo.com
+# 微信
+DOMAIN,finderks.video.qq.com
+DOMAIN,finderv1.video.qq.com
+DOMAIN,wxsnsdy.wxs.qq.com
+DOMAIN,wxsnsdythumb.wxs.qq.com
 
 # ======= X ======= #
 # 小米
@@ -229,7 +233,6 @@ DOMAIN,youku-acs.m.taobao.com
 # 云闪付 开屏广告
 DOMAIN,ads.95516.com
 DOMAIN,switch.cup.com.cn
-DOMAIN,tysdk.95516.com
 # Yandex
 DOMAIN,yandexmetrica.com
 
