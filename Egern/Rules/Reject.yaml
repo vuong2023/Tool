@@ -837,8 +837,6 @@ domain_suffix_set:
 - commdata.v.qq.com
 - comscore.com
 - config.chsmarttv.com
-- conn-service-cn-04.allawntech.com
-- conn-service-cn-05.allawntech.com
 - coreldrawchina.com
 - cpatrk.net
 - cpmstar.com
@@ -1011,9 +1009,7 @@ domain_suffix_set:
 - hotjar.io
 - hs-analytics.net
 - httpdns.bcelive.com
-- httpdns.huaweicloud.com
 - httpdns.ocloud.oppomobile.com
-- httpdns.push.oppomobile.com
 - hubcloud.com.cn
 - hugelog.fcbox.com
 - huishenghuiying.com.cn
@@ -1197,8 +1193,6 @@ domain_suffix_set:
 - mc.yandex.ru
 - mc7clurd09pla4nrtat7ion.com
 - mdfull.com
-- mdp-appconf-in.heytapdl.com
-- mdp-usertrace-cn.heytapmobi.com
 - measurementapi.com
 - media.aso1.net
 - medialytics.com

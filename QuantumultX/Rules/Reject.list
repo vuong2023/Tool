@@ -883,8 +883,6 @@ HOST-SUFFIX,collect.kugou.com,REJECT
 HOST-SUFFIX,commdata.v.qq.com,REJECT
 HOST-SUFFIX,comscore.com,REJECT
 HOST-SUFFIX,config.chsmarttv.com,REJECT
-HOST-SUFFIX,conn-service-cn-04.allawntech.com,REJECT
-HOST-SUFFIX,conn-service-cn-05.allawntech.com,REJECT
 HOST-SUFFIX,coreldrawchina.com,REJECT
 HOST-SUFFIX,cpatrk.net,REJECT
 HOST-SUFFIX,cpmstar.com,REJECT
@@ -1057,9 +1055,7 @@ HOST-SUFFIX,hotjar.com,REJECT
 HOST-SUFFIX,hotjar.io,REJECT
 HOST-SUFFIX,hs-analytics.net,REJECT
 HOST-SUFFIX,httpdns.bcelive.com,REJECT
-HOST-SUFFIX,httpdns.huaweicloud.com,REJECT
 HOST-SUFFIX,httpdns.ocloud.oppomobile.com,REJECT
-HOST-SUFFIX,httpdns.push.oppomobile.com,REJECT
 HOST-SUFFIX,hubcloud.com.cn,REJECT
 HOST-SUFFIX,hugelog.fcbox.com,REJECT
 HOST-SUFFIX,huishenghuiying.com.cn,REJECT
@@ -1243,8 +1239,6 @@ HOST-SUFFIX,mazu.m.qq.com,REJECT
 HOST-SUFFIX,mc.yandex.ru,REJECT
 HOST-SUFFIX,mc7clurd09pla4nrtat7ion.com,REJECT
 HOST-SUFFIX,mdfull.com,REJECT
-HOST-SUFFIX,mdp-appconf-in.heytapdl.com,REJECT
-HOST-SUFFIX,mdp-usertrace-cn.heytapmobi.com,REJECT
 HOST-SUFFIX,measurementapi.com,REJECT
 HOST-SUFFIX,media.aso1.net,REJECT
 HOST-SUFFIX,medialytics.com,REJECT

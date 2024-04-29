@@ -884,8 +884,6 @@ payload:
   - DOMAIN-SUFFIX,commdata.v.qq.com
   - DOMAIN-SUFFIX,comscore.com
   - DOMAIN-SUFFIX,config.chsmarttv.com
-  - DOMAIN-SUFFIX,conn-service-cn-04.allawntech.com
-  - DOMAIN-SUFFIX,conn-service-cn-05.allawntech.com
   - DOMAIN-SUFFIX,coreldrawchina.com
   - DOMAIN-SUFFIX,cpatrk.net
   - DOMAIN-SUFFIX,cpmstar.com
@@ -1058,9 +1056,7 @@ payload:
   - DOMAIN-SUFFIX,hotjar.io
   - DOMAIN-SUFFIX,hs-analytics.net
   - DOMAIN-SUFFIX,httpdns.bcelive.com
-  - DOMAIN-SUFFIX,httpdns.huaweicloud.com
   - DOMAIN-SUFFIX,httpdns.ocloud.oppomobile.com
-  - DOMAIN-SUFFIX,httpdns.push.oppomobile.com
   - DOMAIN-SUFFIX,hubcloud.com.cn
   - DOMAIN-SUFFIX,hugelog.fcbox.com
   - DOMAIN-SUFFIX,huishenghuiying.com.cn
@@ -1244,8 +1240,6 @@ payload:
   - DOMAIN-SUFFIX,mc.yandex.ru
   - DOMAIN-SUFFIX,mc7clurd09pla4nrtat7ion.com
   - DOMAIN-SUFFIX,mdfull.com
-  - DOMAIN-SUFFIX,mdp-appconf-in.heytapdl.com
-  - DOMAIN-SUFFIX,mdp-usertrace-cn.heytapmobi.com
   - DOMAIN-SUFFIX,measurementapi.com
   - DOMAIN-SUFFIX,media.aso1.net
   - DOMAIN-SUFFIX,medialytics.com
