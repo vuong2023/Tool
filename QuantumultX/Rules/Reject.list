@@ -542,7 +542,6 @@ HOST-SUFFIX,ad.bwton.com,REJECT
 HOST-SUFFIX,ad.cmvideo.cn,REJECT
 HOST-SUFFIX,ad.cyapi.cn,REJECT
 HOST-SUFFIX,ad.daum.net,REJECT
-HOST-SUFFIX,ad.flurry.com,REJECT
 HOST-SUFFIX,ad.g.daum.net,REJECT
 HOST-SUFFIX,ad.gt,REJECT
 HOST-SUFFIX,ad.partner.gifshow.com,REJECT
@@ -628,7 +627,6 @@ HOST-SUFFIX,adjust.com,REJECT
 HOST-SUFFIX,adkernel.com,REJECT
 HOST-SUFFIX,adkwai.com,REJECT
 HOST-SUFFIX,adlink-api.huan.tv,REJECT
-HOST-SUFFIX,adlog.flurry.com,REJECT
 HOST-SUFFIX,adlooxtracking.com,REJECT
 HOST-SUFFIX,admarvel.com,REJECT
 HOST-SUFFIX,admaster.com.cn,REJECT
@@ -650,7 +648,6 @@ HOST-SUFFIX,ads-video-al.xhscdn.com,REJECT
 HOST-SUFFIX,ads-video-qc.xhscdn.com,REJECT
 HOST-SUFFIX,ads.95516.com,REJECT
 HOST-SUFFIX,ads.exosrv.com,REJECT
-HOST-SUFFIX,ads.flurry.com,REJECT
 HOST-SUFFIX,ads.google.cn,REJECT
 HOST-SUFFIX,ads.heytapmobi.com,REJECT
 HOST-SUFFIX,ads.huan.tv,REJECT
@@ -1382,7 +1379,6 @@ HOST-SUFFIX,pagead2.googlesyndication.com,REJECT
 HOST-SUFFIX,pagefair.com,REJECT
 HOST-SUFFIX,pagefair.net,REJECT
 HOST-SUFFIX,pangle.io,REJECT
-HOST-SUFFIX,panglelog.gz.bcebos.com,REJECT
 HOST-SUFFIX,pangolin-sdk-toutiao-b.com,REJECT
 HOST-SUFFIX,pangolin-sdk-toutiao.com,REJECT
 HOST-SUFFIX,pardot.com,REJECT

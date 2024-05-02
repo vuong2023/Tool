@@ -543,7 +543,6 @@ payload:
   - DOMAIN-SUFFIX,ad.cmvideo.cn
   - DOMAIN-SUFFIX,ad.cyapi.cn
   - DOMAIN-SUFFIX,ad.daum.net
-  - DOMAIN-SUFFIX,ad.flurry.com
   - DOMAIN-SUFFIX,ad.g.daum.net
   - DOMAIN-SUFFIX,ad.gt
   - DOMAIN-SUFFIX,ad.partner.gifshow.com
@@ -629,7 +628,6 @@ payload:
   - DOMAIN-SUFFIX,adkernel.com
   - DOMAIN-SUFFIX,adkwai.com
   - DOMAIN-SUFFIX,adlink-api.huan.tv
-  - DOMAIN-SUFFIX,adlog.flurry.com
   - DOMAIN-SUFFIX,adlooxtracking.com
   - DOMAIN-SUFFIX,admarvel.com
   - DOMAIN-SUFFIX,admaster.com.cn
@@ -651,7 +649,6 @@ payload:
   - DOMAIN-SUFFIX,ads-video-qc.xhscdn.com
   - DOMAIN-SUFFIX,ads.95516.com
   - DOMAIN-SUFFIX,ads.exosrv.com
-  - DOMAIN-SUFFIX,ads.flurry.com
   - DOMAIN-SUFFIX,ads.google.cn
   - DOMAIN-SUFFIX,ads.heytapmobi.com
   - DOMAIN-SUFFIX,ads.huan.tv
@@ -1383,7 +1380,6 @@ payload:
   - DOMAIN-SUFFIX,pagefair.com
   - DOMAIN-SUFFIX,pagefair.net
   - DOMAIN-SUFFIX,pangle.io
-  - DOMAIN-SUFFIX,panglelog.gz.bcebos.com
   - DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com
   - DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
   - DOMAIN-SUFFIX,pardot.com

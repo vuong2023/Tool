@@ -496,7 +496,6 @@ domain_suffix_set:
 - ad.cmvideo.cn
 - ad.cyapi.cn
 - ad.daum.net
-- ad.flurry.com
 - ad.g.daum.net
 - ad.gt
 - ad.partner.gifshow.com
@@ -582,7 +581,6 @@ domain_suffix_set:
 - adkernel.com
 - adkwai.com
 - adlink-api.huan.tv
-- adlog.flurry.com
 - adlooxtracking.com
 - admarvel.com
 - admaster.com.cn
@@ -604,7 +602,6 @@ domain_suffix_set:
 - ads-video-qc.xhscdn.com
 - ads.95516.com
 - ads.exosrv.com
-- ads.flurry.com
 - ads.google.cn
 - ads.heytapmobi.com
 - ads.huan.tv
@@ -1336,7 +1333,6 @@ domain_suffix_set:
 - pagefair.com
 - pagefair.net
 - pangle.io
-- panglelog.gz.bcebos.com
 - pangolin-sdk-toutiao-b.com
 - pangolin-sdk-toutiao.com
 - pardot.com

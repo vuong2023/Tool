@@ -1,6 +1,6 @@
 # Title: AWAvenue 秋风广告规则（AWAvenue-Ads-Rule）
-# 规则版本: 1.4.6
-# 更新时间: 2024-04-29
+# 规则版本: 1.4.6-fix
+# 更新时间: 2024-05-02
 # 
 # 项目地址：https://github.com/TG-Twilight/AWAvenue-Ads-Rule
 # 
@@ -29,7 +29,6 @@ DOMAIN-SUFFIX,ad.12306.cn
 DOMAIN-SUFFIX,ad.51wnl.com
 DOMAIN-SUFFIX,ad.bwton.com
 DOMAIN-SUFFIX,ad.cyapi.cn
-DOMAIN-SUFFIX,ad.flurry.com
 DOMAIN-SUFFIX,ad.partner.gifshow.com
 DOMAIN-SUFFIX,ad.qingting.fm
 DOMAIN-SUFFIX,ad.qq.com
@@ -55,7 +54,6 @@ DOMAIN-SUFFIX,adfilter.imtt.qq.com
 DOMAIN-SUFFIX,adjust.cn
 DOMAIN-SUFFIX,adkwai.com
 DOMAIN-SUFFIX,adlink-api.huan.tv
-DOMAIN-SUFFIX,adlog.flurry.com
 DOMAIN-SUFFIX,ads-api-o.api.leiniao.com
 DOMAIN-SUFFIX,ads-api.tiktok.com
 DOMAIN-SUFFIX,ads-api.twitter.com
@@ -63,7 +61,6 @@ DOMAIN-SUFFIX,ads-img-qc.xhscdn.com
 DOMAIN-SUFFIX,ads-video-al.xhscdn.com
 DOMAIN-SUFFIX,ads-video-qc.xhscdn.com
 DOMAIN-SUFFIX,ads.95516.com
-DOMAIN-SUFFIX,ads.flurry.com
 DOMAIN-SUFFIX,ads.google.cn
 DOMAIN-SUFFIX,ads.heytapmobi.com
 DOMAIN-SUFFIX,ads.huan.tv
@@ -388,7 +385,6 @@ DOMAIN-SUFFIX,p5-be-pack-sign.pglstatp-toutiao.com
 DOMAIN-SUFFIX,p6-be-pack-sign.pglstatp-toutiao.com
 DOMAIN-SUFFIX,pagead2.googleadservices.com
 DOMAIN-SUFFIX,pagead2.googlesyndication.com
-DOMAIN-SUFFIX,panglelog.gz.bcebos.com
 DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com
 DOMAIN-SUFFIX,pay.sboot.cn
 DOMAIN-SUFFIX,pgdt.ugdtimg.com
