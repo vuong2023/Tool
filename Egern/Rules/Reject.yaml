@@ -1,6 +1,7 @@
 no_resolve: true
 domain_set:
 - 118.89.204.198
+- a.cpic.com.cn
 - a.wkanx.com
 - a0.app.xiaomi.com
 - aaid.uyunad.com
@@ -230,7 +231,6 @@ domain_set:
 - huichuan-mc.sm.cn
 - huichuan.sm.cn
 - huodong.weibo.cn
-- i.snssdk.com
 - iad.apple.com
 - iad.g.163.com
 - iad0ssl.pcauto.com.cn
@@ -254,6 +254,7 @@ domain_set:
 - impservice.youdao.com
 - info4.video.qq.com
 - info6.video.qq.com
+- init.supersonicads.com
 - ios.video.mpush.qq.com
 - ipv4.music.163.com
 - ipv6.music.163.com
@@ -401,6 +402,7 @@ domain_set:
 - wa.gtimg.com
 - wc.51.la
 - ws.ksmobile.net
+- ws.tapjoyads.com
 - www.clarity.ms
 - www.googleadservices.com
 - wxsnsdy.wxs.qq.com
@@ -749,6 +751,7 @@ domain_suffix_set:
 - applovin.com
 - applvn.com
 - appsflyer.com
+- appsflyersdk.com
 - apsalar.com
 - apxadtracking.net
 - aralego.com

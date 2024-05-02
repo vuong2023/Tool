@@ -1,5 +1,6 @@
 payload:
   - DOMAIN,118.89.204.198
+  - DOMAIN,a.cpic.com.cn
   - DOMAIN,a.wkanx.com
   - DOMAIN,a0.app.xiaomi.com
   - DOMAIN,aaid.uyunad.com
@@ -229,7 +230,6 @@ payload:
   - DOMAIN,huichuan-mc.sm.cn
   - DOMAIN,huichuan.sm.cn
   - DOMAIN,huodong.weibo.cn
-  - DOMAIN,i.snssdk.com
   - DOMAIN,iad.apple.com
   - DOMAIN,iad.g.163.com
   - DOMAIN,iad0ssl.pcauto.com.cn
@@ -253,6 +253,7 @@ payload:
   - DOMAIN,impservice.youdao.com
   - DOMAIN,info4.video.qq.com
   - DOMAIN,info6.video.qq.com
+  - DOMAIN,init.supersonicads.com
   - DOMAIN,ios.video.mpush.qq.com
   - DOMAIN,ipv4.music.163.com
   - DOMAIN,ipv6.music.163.com
@@ -400,6 +401,7 @@ payload:
   - DOMAIN,wa.gtimg.com
   - DOMAIN,wc.51.la
   - DOMAIN,ws.ksmobile.net
+  - DOMAIN,ws.tapjoyads.com
   - DOMAIN,www.clarity.ms
   - DOMAIN,www.googleadservices.com
   - DOMAIN,wxsnsdy.wxs.qq.com
@@ -796,6 +798,7 @@ payload:
   - DOMAIN-SUFFIX,applovin.com
   - DOMAIN-SUFFIX,applvn.com
   - DOMAIN-SUFFIX,appsflyer.com
+  - DOMAIN-SUFFIX,appsflyersdk.com
   - DOMAIN-SUFFIX,apsalar.com
   - DOMAIN-SUFFIX,apxadtracking.net
   - DOMAIN-SUFFIX,aralego.com

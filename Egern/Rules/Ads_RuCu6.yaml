@@ -32,12 +32,13 @@ domain_set:
 - amap-aos-info-nogw.amap.com
 - pageviewp.icbc.com.cn
 - ad.zijieapi.com
-- i.snssdk.com
+- init.supersonicads.com
 - is.snssdk.com
 - open.e.kuaishou.com
 - open.kuaishou.com
 - pagead2.googlesyndication-cn.com
 - pagead2.googlesyndication.com
+- ws.tapjoyads.com
 - www.googleadservices.com
 - hdns.ksyun.com
 - dns.jd.com
@@ -73,6 +74,7 @@ domain_set:
 - soul-ad.soulapp.cn
 - ads.pubmatic.com
 - id.hadron.ad.gt
+- a.cpic.com.cn
 - adsmind.gdtimg.com
 - info4.video.qq.com
 - info6.video.qq.com
@@ -131,6 +133,8 @@ domain_suffix_set:
 - mall.icbc.com.cn
 - ads.linkedin.com
 - adservice.google.com
+- appsflyer.com
+- appsflyersdk.com
 - kuaishouzt.com
 - miaozhen.com
 - ehaier.com
