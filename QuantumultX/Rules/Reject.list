@@ -1872,7 +1872,6 @@ HOST-SUFFIX,wapstart.ru,REJECT
 HOST-SUFFIX,watchingthat.net,REJECT
 HOST-SUFFIX,weather-analytics-events.apple.com,REJECT
 HOST-SUFFIX,weather-community-drcn.weather.dbankcloud.cn,REJECT
-HOST-SUFFIX,weather-drcn.music.dbankcloud.cn,REJECT
 HOST-SUFFIX,webads.eu,REJECT
 HOST-SUFFIX,webp2p.letv.com,REJECT
 HOST-SUFFIX,websd8.com,REJECT
