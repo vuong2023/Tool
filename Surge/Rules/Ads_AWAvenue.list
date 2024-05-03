@@ -1,6 +1,6 @@
 # Title: AWAvenue 秋风广告规则（AWAvenue-Ads-Rule）
 # 规则版本: 1.4.6-fix
-# 更新时间: 2024-05-02
+# 更新时间: 2024-05-03
 # 
 # 项目地址：https://github.com/TG-Twilight/AWAvenue-Ads-Rule
 # 
@@ -558,7 +558,6 @@ DOMAIN-SUFFIX,w1.yskwai.com
 DOMAIN-SUFFIX,w1.zskwai.com
 DOMAIN-SUFFIX,weather-analytics-events.apple.com
 DOMAIN-SUFFIX,weather-community-drcn.weather.dbankcloud.cn
-DOMAIN-SUFFIX,weather-drcn.music.dbankcloud.cn
 DOMAIN-SUFFIX,webstat.qiumibao.com
 DOMAIN-SUFFIX,win.gdt.qq.com
 DOMAIN-SUFFIX,wn.x.jd.com
