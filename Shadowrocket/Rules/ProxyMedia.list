@@ -1,5 +1,5 @@
 # 内容：国外媒体列表
-# 数量：368条
+# 数量：370条
 
 # ABC
 DOMAIN-SUFFIX,edgedatg.com
@@ -80,12 +80,6 @@ DOMAIN,gamer-cds.cdn.hinet.net
 DOMAIN,gamer2-cds.cdn.hinet.net
 DOMAIN-SUFFIX,bahamut.com.tw
 DOMAIN-SUFFIX,gamer.com.tw
-
-# B_Global
-USER-AGENT,app/bstar*
-DOMAIN-SUFFIX,bilibili.tv
-DOMAIN-SUFFIX,bstarstatic.com
-DOMAIN,pic-bstarstatic.akamaized.net
 
 # DAZN
 USER-AGENT,DAZN*
@@ -341,8 +335,10 @@ DOMAIN-SUFFIX,olevodtv.com
 
 # OpenAi
 DOMAIN-KEYWORD,openai
+DOMAIN,gemini.google.com
 DOMAIN-SUFFIX,auth0.com
 DOMAIN-SUFFIX,challenges.cloudflare.com
+DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,client-api.arkoselabs.com
 DOMAIN-SUFFIX,events.statsigapi.net
 DOMAIN-SUFFIX,featuregates.org
