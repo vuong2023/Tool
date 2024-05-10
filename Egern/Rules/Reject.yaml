@@ -538,9 +538,7 @@ domain_suffix_set:
 - adblade.com
 - adblox.net
 - adbooth.com
-- adc.hpplay.cn
 - adcamp.ru
-- adcdn.hpplay.cn
 - adcdn.tencentmusic.com
 - adcdnx.com
 - adcel.co
@@ -564,7 +562,6 @@ domain_suffix_set:
 - adecosystems.tech
 - adelement.com
 - adelva.com
-- adeng.hpplay.cn
 - adentifi.com
 - adexchangemachine.com
 - adexpo.tencentmusic.com
@@ -620,6 +617,7 @@ domain_suffix_set:
 - ads1.msn.com
 - ads2.msn.com
 - ads3-normal-hl.zijieapi.com
+- ads3-normal-lf.zijieapi.com
 - ads3-normal-lq.zijieapi.com
 - ads3-normal.zijieapi.com
 - ads5-normal-hl.zijieapi.com
@@ -761,7 +759,6 @@ domain_suffix_set:
 - aty.sohu.com
 - audid-api.taobao.com
 - audid.umeng.com
-- authenticate.chiq-cloud.com
 - awaitcola.com
 - axonix.com
 - azr.footprintdns.com
@@ -822,6 +819,7 @@ domain_suffix_set:
 - cfg.imtt.qq.com
 - chat1.jd.com
 - chemdraw.com.cn
+- chiq-cloud.com
 - cishantao.com
 - cjmakeding.com
 - cjmkt.com
@@ -983,7 +981,6 @@ domain_suffix_set:
 - grs.platform.dbankcloud.ru
 - gscxs.cn
 - gsjln04hd.com
-- gslb.hpplay.cn
 - gtlpaj.com
 - guitarpro.cc
 - gz-data.com
@@ -1007,6 +1004,7 @@ domain_suffix_set:
 - hoisin.coocaatv.com
 - hotjar.com
 - hotjar.io
+- hpplay.cn
 - hs-analytics.net
 - httpdns.bcelive.com
 - httpdns.ocloud.oppomobile.com
@@ -1082,7 +1080,6 @@ domain_suffix_set:
 - jads.co
 - janapi.jd.com
 - jdkic.com
-- jfapi.chiq-cloud.com
 - jianxinshanghai.com
 - jidukeji.com
 - jiguang.cn
@@ -1192,6 +1189,7 @@ domain_suffix_set:
 - mazu.m.qq.com
 - mc.yandex.ru
 - mc7clurd09pla4nrtat7ion.com
+- mcdn.bilivideo.cn
 - mdfull.com
 - measurementapi.com
 - media.aso1.net
@@ -1444,7 +1442,6 @@ domain_suffix_set:
 - rms-drcn.platform.dbankcloud.cn
 - roi.soulapp.cn
 - rotaban.ru
-- rp.hpplay.cn
 - rpt.gdt.qq.com
 - rqmob.com
 - rtb.voiceads.cn
@@ -1479,7 +1476,6 @@ domain_suffix_set:
 - sdk.e.qq.com
 - sdk.hzsanjiaomao.com
 - sdk.mobads.adwangmai.com
-- sdkauth.hpplay.cn
 - sdkclick.com
 - sdkconf.avlyun.com
 - sdkconfig.ad.intl.xiaomi.com
@@ -1711,7 +1707,6 @@ domain_suffix_set:
 - tuitiger.com
 - turn.com
 - tutoads.tv
-- tvapp.hpplay.cn
 - tvuser-ch.cedock.com
 - tx-ad.a.yximgs.com
 - tx-kmpaudio.pull.yximgs.com
@@ -1721,9 +1716,7 @@ domain_suffix_set:
 - u-ad.info
 - u3.ucweb.com
 - uapi.ads.heytapmobi.com
-- uapi.chiq-cloud.com
 - uberads.com
-- ucstat.baidu.com
 - udrig.com
 - uimserv.net
 - ulog-sdk.gifshow.com

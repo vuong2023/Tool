@@ -584,9 +584,7 @@ HOST-SUFFIX,adbecrsl.com,REJECT
 HOST-SUFFIX,adblade.com,REJECT
 HOST-SUFFIX,adblox.net,REJECT
 HOST-SUFFIX,adbooth.com,REJECT
-HOST-SUFFIX,adc.hpplay.cn,REJECT
 HOST-SUFFIX,adcamp.ru,REJECT
-HOST-SUFFIX,adcdn.hpplay.cn,REJECT
 HOST-SUFFIX,adcdn.tencentmusic.com,REJECT
 HOST-SUFFIX,adcdnx.com,REJECT
 HOST-SUFFIX,adcel.co,REJECT
@@ -610,7 +608,6 @@ HOST-SUFFIX,adecosystems.net,REJECT
 HOST-SUFFIX,adecosystems.tech,REJECT
 HOST-SUFFIX,adelement.com,REJECT
 HOST-SUFFIX,adelva.com,REJECT
-HOST-SUFFIX,adeng.hpplay.cn,REJECT
 HOST-SUFFIX,adentifi.com,REJECT
 HOST-SUFFIX,adexchangemachine.com,REJECT
 HOST-SUFFIX,adexpo.tencentmusic.com,REJECT
@@ -666,6 +663,7 @@ HOST-SUFFIX,ads.superad.cc,REJECT
 HOST-SUFFIX,ads1.msn.com,REJECT
 HOST-SUFFIX,ads2.msn.com,REJECT
 HOST-SUFFIX,ads3-normal-hl.zijieapi.com,REJECT
+HOST-SUFFIX,ads3-normal-lf.zijieapi.com,REJECT
 HOST-SUFFIX,ads3-normal-lq.zijieapi.com,REJECT
 HOST-SUFFIX,ads3-normal.zijieapi.com,REJECT
 HOST-SUFFIX,ads5-normal-hl.zijieapi.com,REJECT
@@ -807,7 +805,6 @@ HOST-SUFFIX,atplay.cn,REJECT
 HOST-SUFFIX,aty.sohu.com,REJECT
 HOST-SUFFIX,audid-api.taobao.com,REJECT
 HOST-SUFFIX,audid.umeng.com,REJECT
-HOST-SUFFIX,authenticate.chiq-cloud.com,REJECT
 HOST-SUFFIX,awaitcola.com,REJECT
 HOST-SUFFIX,axonix.com,REJECT
 HOST-SUFFIX,azr.footprintdns.com,REJECT
@@ -868,6 +865,7 @@ HOST-SUFFIX,ce33m7.com,REJECT
 HOST-SUFFIX,cfg.imtt.qq.com,REJECT
 HOST-SUFFIX,chat1.jd.com,REJECT
 HOST-SUFFIX,chemdraw.com.cn,REJECT
+HOST-SUFFIX,chiq-cloud.com,REJECT
 HOST-SUFFIX,cishantao.com,REJECT
 HOST-SUFFIX,cjmakeding.com,REJECT
 HOST-SUFFIX,cjmkt.com,REJECT
@@ -1029,7 +1027,6 @@ HOST-SUFFIX,grs.hicloud.com,REJECT
 HOST-SUFFIX,grs.platform.dbankcloud.ru,REJECT
 HOST-SUFFIX,gscxs.cn,REJECT
 HOST-SUFFIX,gsjln04hd.com,REJECT
-HOST-SUFFIX,gslb.hpplay.cn,REJECT
 HOST-SUFFIX,gtlpaj.com,REJECT
 HOST-SUFFIX,guitarpro.cc,REJECT
 HOST-SUFFIX,gz-data.com,REJECT
@@ -1053,6 +1050,7 @@ HOST-SUFFIX,hoisin.coocaa.com,REJECT
 HOST-SUFFIX,hoisin.coocaatv.com,REJECT
 HOST-SUFFIX,hotjar.com,REJECT
 HOST-SUFFIX,hotjar.io,REJECT
+HOST-SUFFIX,hpplay.cn,REJECT
 HOST-SUFFIX,hs-analytics.net,REJECT
 HOST-SUFFIX,httpdns.bcelive.com,REJECT
 HOST-SUFFIX,httpdns.ocloud.oppomobile.com,REJECT
@@ -1128,7 +1126,6 @@ HOST-SUFFIX,iyoowi.com,REJECT
 HOST-SUFFIX,jads.co,REJECT
 HOST-SUFFIX,janapi.jd.com,REJECT
 HOST-SUFFIX,jdkic.com,REJECT
-HOST-SUFFIX,jfapi.chiq-cloud.com,REJECT
 HOST-SUFFIX,jianxinshanghai.com,REJECT
 HOST-SUFFIX,jidukeji.com,REJECT
 HOST-SUFFIX,jiguang.cn,REJECT
@@ -1238,6 +1235,7 @@ HOST-SUFFIX,maxwellsery.com,REJECT
 HOST-SUFFIX,mazu.m.qq.com,REJECT
 HOST-SUFFIX,mc.yandex.ru,REJECT
 HOST-SUFFIX,mc7clurd09pla4nrtat7ion.com,REJECT
+HOST-SUFFIX,mcdn.bilivideo.cn,REJECT
 HOST-SUFFIX,mdfull.com,REJECT
 HOST-SUFFIX,measurementapi.com,REJECT
 HOST-SUFFIX,media.aso1.net,REJECT
@@ -1490,7 +1488,6 @@ HOST-SUFFIX,rlcdn.com,REJECT
 HOST-SUFFIX,rms-drcn.platform.dbankcloud.cn,REJECT
 HOST-SUFFIX,roi.soulapp.cn,REJECT
 HOST-SUFFIX,rotaban.ru,REJECT
-HOST-SUFFIX,rp.hpplay.cn,REJECT
 HOST-SUFFIX,rpt.gdt.qq.com,REJECT
 HOST-SUFFIX,rqmob.com,REJECT
 HOST-SUFFIX,rtb.voiceads.cn,REJECT
@@ -1525,7 +1522,6 @@ HOST-SUFFIX,sdk.beizi.biz,REJECT
 HOST-SUFFIX,sdk.e.qq.com,REJECT
 HOST-SUFFIX,sdk.hzsanjiaomao.com,REJECT
 HOST-SUFFIX,sdk.mobads.adwangmai.com,REJECT
-HOST-SUFFIX,sdkauth.hpplay.cn,REJECT
 HOST-SUFFIX,sdkclick.com,REJECT
 HOST-SUFFIX,sdkconf.avlyun.com,REJECT
 HOST-SUFFIX,sdkconfig.ad.intl.xiaomi.com,REJECT
@@ -1757,7 +1753,6 @@ HOST-SUFFIX,tuipenguin.com,REJECT
 HOST-SUFFIX,tuitiger.com,REJECT
 HOST-SUFFIX,turn.com,REJECT
 HOST-SUFFIX,tutoads.tv,REJECT
-HOST-SUFFIX,tvapp.hpplay.cn,REJECT
 HOST-SUFFIX,tvuser-ch.cedock.com,REJECT
 HOST-SUFFIX,tx-ad.a.yximgs.com,REJECT
 HOST-SUFFIX,tx-kmpaudio.pull.yximgs.com,REJECT
@@ -1767,9 +1762,7 @@ HOST-SUFFIX,tz.sec.xiaomi.com,REJECT
 HOST-SUFFIX,u-ad.info,REJECT
 HOST-SUFFIX,u3.ucweb.com,REJECT
 HOST-SUFFIX,uapi.ads.heytapmobi.com,REJECT
-HOST-SUFFIX,uapi.chiq-cloud.com,REJECT
 HOST-SUFFIX,uberads.com,REJECT
-HOST-SUFFIX,ucstat.baidu.com,REJECT
 HOST-SUFFIX,udrig.com,REJECT
 HOST-SUFFIX,uimserv.net,REJECT
 HOST-SUFFIX,ulog-sdk.gifshow.com,REJECT

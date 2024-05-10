@@ -1,6 +1,6 @@
 # Title: AWAvenue 秋风广告规则（AWAvenue-Ads-Rule）
-# 规则版本: 1.4.7
-# 更新时间: 2024-05-04
+# 规则版本: 1.4.8
+# 更新时间: 2024-05-10
 # 
 # 项目地址：https://github.com/TG-Twilight/AWAvenue-Ads-Rule
 # 
@@ -43,12 +43,9 @@ DOMAIN-SUFFIX,ad.zijieapi.com
 DOMAIN-SUFFIX,adapi.izuiyou.com
 DOMAIN-SUFFIX,adapi.yynetwk.com
 DOMAIN-SUFFIX,adashbc.ut.taobao.com
-DOMAIN-SUFFIX,adc.hpplay.cn
-DOMAIN-SUFFIX,adcdn.hpplay.cn
 DOMAIN-SUFFIX,adcdn.tencentmusic.com
 DOMAIN-SUFFIX,adclick.tencentmusic.com
 DOMAIN-SUFFIX,adcolony.com
-DOMAIN-SUFFIX,adeng.hpplay.cn
 DOMAIN-SUFFIX,adexpo.tencentmusic.com
 DOMAIN-SUFFIX,adfilter.imtt.qq.com
 DOMAIN-SUFFIX,adjust.cn
@@ -71,6 +68,7 @@ DOMAIN-SUFFIX,ads.oppomobile.com
 DOMAIN-SUFFIX,ads.service.kugou.com
 DOMAIN-SUFFIX,ads.service.kugou.com
 DOMAIN-SUFFIX,ads3-normal-hl.zijieapi.com
+DOMAIN-SUFFIX,ads3-normal-lf.zijieapi.com
 DOMAIN-SUFFIX,ads3-normal-lq.zijieapi.com
 DOMAIN-SUFFIX,ads3-normal.zijieapi.com
 DOMAIN-SUFFIX,ads5-normal-hl.zijieapi.com
@@ -154,7 +152,6 @@ DOMAIN-SUFFIX,applog.zijieapi.com
 DOMAIN-SUFFIX,ata-sdk-uuid-report.dreport.meituan.net
 DOMAIN-SUFFIX,audid-api.taobao.com
 DOMAIN-SUFFIX,audid.umeng.com
-DOMAIN-SUFFIX,authenticate.chiq-cloud.com
 DOMAIN-SUFFIX,azr.footprintdns.com
 DOMAIN-SUFFIX,b1-data.ads.heytapmobi.com
 DOMAIN-SUFFIX,bdapi-ads.realmemobile.com
@@ -181,6 +178,7 @@ DOMAIN-SUFFIX,cdn.ad.xiaomi.com
 DOMAIN-SUFFIX,cdn.ynuf.aliapp.org
 DOMAIN-SUFFIX,cfg.imtt.qq.com
 DOMAIN-SUFFIX,chat1.jd.com
+DOMAIN-SUFFIX,chiq-cloud.com
 DOMAIN-SUFFIX,ck.ads.oppomobile.com
 DOMAIN-SUFFIX,clog.miguvideo.com
 DOMAIN-SUFFIX,cm.bilibili.com
@@ -238,7 +236,6 @@ DOMAIN-SUFFIX,gromore.pangolin-sdk-toutiao.com
 DOMAIN-SUFFIX,grs.dbankcloud.com
 DOMAIN-SUFFIX,grs.hicloud.com
 DOMAIN-SUFFIX,grs.platform.dbankcloud.ru
-DOMAIN-SUFFIX,gslb.hpplay.cn
 DOMAIN-SUFFIX,h-adashx.ut.taobao.com
 DOMAIN-SUFFIX,h.trace.qq.com
 DOMAIN-SUFFIX,henzanapp.com
@@ -246,6 +243,7 @@ DOMAIN-SUFFIX,hexagon-analytics.com
 DOMAIN-SUFFIX,hiboard-drcn.ai.dbankcloud.cn
 DOMAIN-SUFFIX,hm.baidu.com
 DOMAIN-SUFFIX,hmma.baidu.com
+DOMAIN-SUFFIX,hpplay.cn
 DOMAIN-SUFFIX,httpdns.bcelive.com
 DOMAIN-SUFFIX,httpdns.ocloud.oppomobile.com
 DOMAIN-SUFFIX,hugelog.fcbox.com
@@ -274,7 +272,6 @@ DOMAIN-SUFFIX,itv2-up.openspeech.cn
 DOMAIN-SUFFIX,ixav-cse.avlyun.com
 DOMAIN-SUFFIX,iyfbodn.com
 DOMAIN-SUFFIX,janapi.jd.com
-DOMAIN-SUFFIX,jfapi.chiq-cloud.com
 DOMAIN-SUFFIX,jiguang.cn
 DOMAIN-SUFFIX,jpush.cn
 DOMAIN-SUFFIX,jpush.html5.qq.com
@@ -329,6 +326,7 @@ DOMAIN-SUFFIX,m1.ad.10010.com
 DOMAIN-SUFFIX,mapi.m.jd.com
 DOMAIN-SUFFIX,masdkv6.3g.qq.com
 DOMAIN-SUFFIX,mazu.m.qq.com
+DOMAIN-SUFFIX,mcdn.bilivideo.cn
 DOMAIN-SUFFIX,metok.sys.miui.com
 DOMAIN-SUFFIX,metrics.apple.com
 DOMAIN-SUFFIX,metrics.data.hicloud.com
@@ -406,7 +404,6 @@ DOMAIN-SUFFIX,res3.hubcloud.com.cn
 DOMAIN-SUFFIX,review.gdtimg.com
 DOMAIN-SUFFIX,rms-drcn.platform.dbankcloud.cn
 DOMAIN-SUFFIX,roi.soulapp.cn
-DOMAIN-SUFFIX,rp.hpplay.cn
 DOMAIN-SUFFIX,rpt.gdt.qq.com
 DOMAIN-SUFFIX,rtb.voiceads.cn
 DOMAIN-SUFFIX,s1.qq.com
@@ -424,7 +421,6 @@ DOMAIN-SUFFIX,sdk.beizi.biz
 DOMAIN-SUFFIX,sdk.e.qq.com
 DOMAIN-SUFFIX,sdk.hzsanjiaomao.com
 DOMAIN-SUFFIX,sdk.mobads.adwangmai.com
-DOMAIN-SUFFIX,sdkauth.hpplay.cn
 DOMAIN-SUFFIX,sdkconf.avlyun.com
 DOMAIN-SUFFIX,sdkconfig.ad.intl.xiaomi.com
 DOMAIN-SUFFIX,sdkconfig.ad.xiaomi.com
@@ -500,14 +496,11 @@ DOMAIN-SUFFIX,tracker.ai.xiaomi.com
 DOMAIN-SUFFIX,tracker.gitee.com
 DOMAIN-SUFFIX,tracking.miui.com
 DOMAIN-SUFFIX,tracking.rus.miui.com
-DOMAIN-SUFFIX,tvapp.hpplay.cn
 DOMAIN-SUFFIX,tvuser-ch.cedock.com
 DOMAIN-SUFFIX,tx-ad.a.yximgs.com
 DOMAIN-SUFFIX,tx-kmpaudio.pull.yximgs.com
 DOMAIN-SUFFIX,tz.sec.xiaomi.com
 DOMAIN-SUFFIX,uapi.ads.heytapmobi.com
-DOMAIN-SUFFIX,uapi.chiq-cloud.com
-DOMAIN-SUFFIX,ucstat.baidu.com
 DOMAIN-SUFFIX,ulog-sdk.gifshow.com
 DOMAIN-SUFFIX,ulogjs.gifshow.com
 DOMAIN-SUFFIX,ulogs.umeng.com

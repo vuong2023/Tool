@@ -584,9 +584,7 @@ DOMAIN-SUFFIX,adbecrsl.com
 DOMAIN-SUFFIX,adblade.com
 DOMAIN-SUFFIX,adblox.net
 DOMAIN-SUFFIX,adbooth.com
-DOMAIN-SUFFIX,adc.hpplay.cn
 DOMAIN-SUFFIX,adcamp.ru
-DOMAIN-SUFFIX,adcdn.hpplay.cn
 DOMAIN-SUFFIX,adcdn.tencentmusic.com
 DOMAIN-SUFFIX,adcdnx.com
 DOMAIN-SUFFIX,adcel.co
@@ -610,7 +608,6 @@ DOMAIN-SUFFIX,adecosystems.net
 DOMAIN-SUFFIX,adecosystems.tech
 DOMAIN-SUFFIX,adelement.com
 DOMAIN-SUFFIX,adelva.com
-DOMAIN-SUFFIX,adeng.hpplay.cn
 DOMAIN-SUFFIX,adentifi.com
 DOMAIN-SUFFIX,adexchangemachine.com
 DOMAIN-SUFFIX,adexpo.tencentmusic.com
@@ -666,6 +663,7 @@ DOMAIN-SUFFIX,ads.superad.cc
 DOMAIN-SUFFIX,ads1.msn.com
 DOMAIN-SUFFIX,ads2.msn.com
 DOMAIN-SUFFIX,ads3-normal-hl.zijieapi.com
+DOMAIN-SUFFIX,ads3-normal-lf.zijieapi.com
 DOMAIN-SUFFIX,ads3-normal-lq.zijieapi.com
 DOMAIN-SUFFIX,ads3-normal.zijieapi.com
 DOMAIN-SUFFIX,ads5-normal-hl.zijieapi.com
@@ -807,7 +805,6 @@ DOMAIN-SUFFIX,atplay.cn
 DOMAIN-SUFFIX,aty.sohu.com
 DOMAIN-SUFFIX,audid-api.taobao.com
 DOMAIN-SUFFIX,audid.umeng.com
-DOMAIN-SUFFIX,authenticate.chiq-cloud.com
 DOMAIN-SUFFIX,awaitcola.com
 DOMAIN-SUFFIX,axonix.com
 DOMAIN-SUFFIX,azr.footprintdns.com
@@ -868,6 +865,7 @@ DOMAIN-SUFFIX,ce33m7.com
 DOMAIN-SUFFIX,cfg.imtt.qq.com
 DOMAIN-SUFFIX,chat1.jd.com
 DOMAIN-SUFFIX,chemdraw.com.cn
+DOMAIN-SUFFIX,chiq-cloud.com
 DOMAIN-SUFFIX,cishantao.com
 DOMAIN-SUFFIX,cjmakeding.com
 DOMAIN-SUFFIX,cjmkt.com
@@ -1029,7 +1027,6 @@ DOMAIN-SUFFIX,grs.hicloud.com
 DOMAIN-SUFFIX,grs.platform.dbankcloud.ru
 DOMAIN-SUFFIX,gscxs.cn
 DOMAIN-SUFFIX,gsjln04hd.com
-DOMAIN-SUFFIX,gslb.hpplay.cn
 DOMAIN-SUFFIX,gtlpaj.com
 DOMAIN-SUFFIX,guitarpro.cc
 DOMAIN-SUFFIX,gz-data.com
@@ -1053,6 +1050,7 @@ DOMAIN-SUFFIX,hoisin.coocaa.com
 DOMAIN-SUFFIX,hoisin.coocaatv.com
 DOMAIN-SUFFIX,hotjar.com
 DOMAIN-SUFFIX,hotjar.io
+DOMAIN-SUFFIX,hpplay.cn
 DOMAIN-SUFFIX,hs-analytics.net
 DOMAIN-SUFFIX,httpdns.bcelive.com
 DOMAIN-SUFFIX,httpdns.ocloud.oppomobile.com
@@ -1128,7 +1126,6 @@ DOMAIN-SUFFIX,iyoowi.com
 DOMAIN-SUFFIX,jads.co
 DOMAIN-SUFFIX,janapi.jd.com
 DOMAIN-SUFFIX,jdkic.com
-DOMAIN-SUFFIX,jfapi.chiq-cloud.com
 DOMAIN-SUFFIX,jianxinshanghai.com
 DOMAIN-SUFFIX,jidukeji.com
 DOMAIN-SUFFIX,jiguang.cn
@@ -1238,6 +1235,7 @@ DOMAIN-SUFFIX,maxwellsery.com
 DOMAIN-SUFFIX,mazu.m.qq.com
 DOMAIN-SUFFIX,mc.yandex.ru
 DOMAIN-SUFFIX,mc7clurd09pla4nrtat7ion.com
+DOMAIN-SUFFIX,mcdn.bilivideo.cn
 DOMAIN-SUFFIX,mdfull.com
 DOMAIN-SUFFIX,measurementapi.com
 DOMAIN-SUFFIX,media.aso1.net
@@ -1490,7 +1488,6 @@ DOMAIN-SUFFIX,rlcdn.com
 DOMAIN-SUFFIX,rms-drcn.platform.dbankcloud.cn
 DOMAIN-SUFFIX,roi.soulapp.cn
 DOMAIN-SUFFIX,rotaban.ru
-DOMAIN-SUFFIX,rp.hpplay.cn
 DOMAIN-SUFFIX,rpt.gdt.qq.com
 DOMAIN-SUFFIX,rqmob.com
 DOMAIN-SUFFIX,rtb.voiceads.cn
@@ -1525,7 +1522,6 @@ DOMAIN-SUFFIX,sdk.beizi.biz
 DOMAIN-SUFFIX,sdk.e.qq.com
 DOMAIN-SUFFIX,sdk.hzsanjiaomao.com
 DOMAIN-SUFFIX,sdk.mobads.adwangmai.com
-DOMAIN-SUFFIX,sdkauth.hpplay.cn
 DOMAIN-SUFFIX,sdkclick.com
 DOMAIN-SUFFIX,sdkconf.avlyun.com
 DOMAIN-SUFFIX,sdkconfig.ad.intl.xiaomi.com
@@ -1757,7 +1753,6 @@ DOMAIN-SUFFIX,tuipenguin.com
 DOMAIN-SUFFIX,tuitiger.com
 DOMAIN-SUFFIX,turn.com
 DOMAIN-SUFFIX,tutoads.tv
-DOMAIN-SUFFIX,tvapp.hpplay.cn
 DOMAIN-SUFFIX,tvuser-ch.cedock.com
 DOMAIN-SUFFIX,tx-ad.a.yximgs.com
 DOMAIN-SUFFIX,tx-kmpaudio.pull.yximgs.com
@@ -1767,9 +1762,7 @@ DOMAIN-SUFFIX,tz.sec.xiaomi.com
 DOMAIN-SUFFIX,u-ad.info
 DOMAIN-SUFFIX,u3.ucweb.com
 DOMAIN-SUFFIX,uapi.ads.heytapmobi.com
-DOMAIN-SUFFIX,uapi.chiq-cloud.com
 DOMAIN-SUFFIX,uberads.com
-DOMAIN-SUFFIX,ucstat.baidu.com
 DOMAIN-SUFFIX,udrig.com
 DOMAIN-SUFFIX,uimserv.net
 DOMAIN-SUFFIX,ulog-sdk.gifshow.com
