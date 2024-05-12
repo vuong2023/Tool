@@ -6808,7 +6808,6 @@ domain_suffix_set:
 - proxy-mob-cld.alicdn.com
 - strip.alicdn.com
 - unidesk.alicdn.com
-- httpdns.alicdn.com
 - rd.alice.it
 - a8.aliceandolivia.jp
 - alidongxi.com
@@ -50361,7 +50360,6 @@ domain_suffix_set:
 - kuvoansub.com
 - img.kuwanpx.com
 - kuwhetsa.net
-- deliver.kuwo.cn
 - ecomgxh.kuwo.cn
 - log.kuwo.cn
 - log1.kuwo.cn
